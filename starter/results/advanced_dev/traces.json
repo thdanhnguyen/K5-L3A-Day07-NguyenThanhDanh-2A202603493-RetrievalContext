@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "adv_dev_tab_01",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table B1.2.1 (trang 85), tỷ lệ trích lập dự phòng (provisioning rate) đối với khoản vay nhóm Substandard có thời gian quá hạn NPL < 12 tháng tại Ấn Độ năm 2008 là bao nhiêu phần trăm?",
+    "gold_pages": [
+      85
+    ],
+    "gold_answer": "10%.",
+    "answer": "Theo Table B1.2.1, tỷ lệ trích lập dự phòng cho khoản vay nhóm Substandard có thời gian NPL dưới 12 tháng tại Ấn Độ năm 2008 là **10%**.",
+    "citations": [
+      "wdr2022-p085-tab-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p085-tab-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table B1.2.1 India 2008 Substandard NPL less than 12 months provisioning rate",
+        "filters": {
+          "page": 85
+        },
+        "results": [
+          {
+            "id": "wdr2022-p085-vis-00",
+            "page": 85,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 85 (split page 73)]\n[Visual description of page 85 (split page 73)]\n[Visual description of page 85]\n### Visual Elements on Page 85 of World Development Report 2022\n\n#### 1. Table B1.2.1: Provisioning requirements by loan category, India, 2008\n- **Type**: Table\n- **Axes/Units**: \n  - **Asset category**: NPL duration (months)\n  - **Provisioning rate (%)**\n  \n- **Legend Categories**:\n  - **Standard**: NPL duration —, Provisioning rate 0.25–1%\n  - **Substandard**: NPL duration <12, Provisioning rate 10%\n  - **Doubtful**: \n    - NPL duration 12–24, Provisioning rate 20%\n    - NPL duration 25–48, Provisioning rate 30%\n    - NPL duration >48, Provisioning rate 100%\n  - **Loss**: Provisioning rate 100%\n\n- **Key Numeric Data Points**:\n  - Standard: 0.25–1%\n  - Substandard: <12 months → 10%\n  - Doubtful: \n    - 12–24 mon"
+          },
+          {
+            "id": "wdr2022-p085-txt-04",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032258,
+            "snippet": "atio (11 percent) among this group of countries.\nContrary to the intention of the policy, regulatory forbearance also encouraged banks to channel \ncredit to low-liquidity and low-solvency borrowers. \nAs a result, zombie firms emerged on a large scale \nin the Indian corporate sector. In 2016, approximately 40 percent of nonfinancial firms in India had \n(Box continues next page)\nTable B1.2.1 Provisioning requirements \nby loan category, India, 2008\nAsset \nNPL duration Provisioning\ncategory \n(months) \nrate (%)\nStandard \n — \n0.25–1 \nSubstandard \n<12 \n 10\nDoubtful \n12–24 \n 20"
+          },
+          {
+            "id": "wdr2022-p085-tab-00",
+            "page": 85,
+            "type": "table",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031746,
+            "snippet": "[Table extracted from page 85 (split page 73)]\n| Asset category | NPLduration (months) | Provisioning rate(%) |\n| --- | --- | --- |\n| Standard | — | 025 1 . – |\n| Substandard | <12 | 10 |\n| Doubtful | 12 24 – 25 48 – >48 | 20 30 100 |\n| Loss | — | 100 |"
+          },
+          {
+            "id": "wdr2022-p085-txt-05",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "25–48 \n 30\n\n>48 \n100\nLoss \n— \n100\nSource: Reserve Bank of India.\nNote: The table lists provisioning requirements on \nvarious categories of loans as defined by the Reserve \nBank of India. The provisioning requirements for standard assets depend on the industry sector of the loan, \nand thus the table indicates the range of provisioning \nrates across all industries. NPL = nonperforming loan."
+          },
+          {
+            "id": "wdr2022-p085-txt-01",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03055,
+            "snippet": "r temporary liquidity stress. The policy relaxed \nasset risk classification rules that govern capital \nprovisioning requirements for financial institutions \nwith the intent of making it easier for banks to provide forbearance to firms that had suffered temporary cash-flow shocks during the crisis. \nWith the new regulation, banks were no longer \nrequired to automatically downgrade the asset \nquality of loans to substandard because of a missed \nprincipal or interest payment. They could claim that \ndelinquent firms merely faced temporary liquidity \nproblems and place these assets into a new “restructured” category. Under normal circumstances, all \nloans in the restructured category would be subject to immediate downgrades to substandard, and \ncapital provisioning requirements would increase \nproportionately and substantially, as table B1.2.1"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 5189.29
+  },
+  {
+    "id": "adv_dev_tab_02",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 1.1 (trang 88), mức thay đổi trung bình tỷ lệ nợ công nội địa (Domestic debt) trên GDP của nhóm quốc gia thu nhập cao (High-income) trong giai đoạn 2010–19 và năm 2020 lần lượt là bao nhiêu % GDP?",
+    "gold_pages": [
+      88
+    ],
+    "gold_answer": "Trung bình 2010–19 là -0.30% GDP; năm 2020 là 9.24% GDP.",
+    "answer": "Theo Table 1.1, với nhóm quốc gia thu nhập cao (High-income), mức thay đổi trung bình tỷ lệ nợ công nội địa (Domestic debt) là −0,30% GDP trong giai đoạn 2010–19 và 9,24% GDP năm 2020.",
+    "citations": [
+      "page:88"
+    ],
+    "raw_citations": [
+      "page:88"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table 1.1 page 88 High-income Domestic debt average change percent GDP 2010–19 2020",
+        "filters": {
+          "page": 88
+        },
+        "results": [
+          {
+            "id": "wdr2022-p088-txt-03",
+            "page": 88,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "before incomes and employment have fully rebounded. This effort to raise revenue could put further pressure on household and \nfirm balance sheets and threaten hard-won gains in poverty reduction. Historically, episodes of high \nTable 1.1 Change in average central government debt stocks, by country income group, \n2010–20\nShare of GDP (%)\nChange in average total \nLow- \nLower-middle- \nUpper-middle- \nHighdebt to GDP ratio \nincome \nincome \nincome \nincome \nAll\nTotal debt\nAverage, 2010–19 \n2.88 \n1.82 \n1.46 \n 1.20 \n1.84\n2020 \n3.81 \n6.69 \n5.55 \n13.63 \n7.42\nDomestic debt\nAverage, 2010–19 \n0.79 \n0.59 \n0.97 \n–0.30 \n0.51\n2020 \n0.86 \n3.04 \n1.80 \n9.24 \n3.73\nExternal debt\nAverage, 2010–19 \n2.09 \n1.23 \n0.49 \n1.41 \n1.30\n2020 \n3.03 \n3.66 \n3.74 \n4.54 \n3.74\nSource: Barrot 2021.\nNote: The table shows the changes in government total, domestic, and external debt"
+          },
+          {
+            "id": "wdr2022-p088-vis-00",
+            "page": 88,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "[Visual description of page 88 (split page 76)]\n[Visual description of page 88 (split page 76)]\n[Visual description of page 88]\n### Table 1.1: Change in average central government debt stocks, by country income group, 2010–20\n\n**Type:** Table\n\n#### Axes and Units:\n- **Columns:** Income Groups (Low-income, Lower-middle-income, Upper-middle-income, High-income, All)\n- **Rows:** Categories of Debt (Total debt, Domestic debt, External debt)\n- **Units:** Share of GDP (%)\n\n#### Legend Categories:\n- **Total debt**\n- **Domestic debt**\n- **External debt**\n\n#### Key Numeric Data Points:\n- **Change in average total debt to GDP ratio:**\n  - **Average, 2010–19:**\n    - Low-income: 2.88%\n    - Lower-middle-income: 1.82%\n    - Upper-middle-income: 1.46%\n    - High-income: 1.20%\n    - All: 1.84%\n  - **2020:**\n    - Low-income: 3.81%\n    - Lower-middle-in"
+          },
+          {
+            "id": "wdr2022-p088-tab-00",
+            "page": 88,
+            "type": "table",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031746,
+            "snippet": "[Table extracted from page 88 (split page 76)]\n| Changeinaveragetotal debttoGDPratio | Low- income | Lower-middle- income | Upper-middle- income | High - income | All |\n| --- | --- | --- | --- | --- | --- |\n| Totaldebt Average 2010 –19 , | 288 . | 182 . | 146 . | 120 . | 184 . |\n| 2020 | 381 . | 669 . | 555 . | 1363 . | 742 . |\n| Domesticdebt Average 2010 –19 , | 079 . | 059 . | 097 . | 030 – . | 051 . |\n| 2020 | 086 . | 304 . | 180 . | 924 . | 373 . |\n| Externaldebt Average 2010 –19 , | 209 . | 123 . | 049 . | 141 . | 130 . |\n| 2020 | 303 . | 366 . | 374 . | 454 . | 374 . |"
+          },
+          {
+            "id": "wdr2022-p088-txt-04",
+            "page": 88,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03125,
+            "snippet": "al, domestic, and external debt stocks for the period 2010–19 and in \n2020. GDP = gross domestic product."
+          },
+          {
+            "id": "wdr2022-p088-txt-00",
+            "page": 88,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.030769,
+            "snippet": "66 | WORLD DEVELOPMENT REPORT 2022\ncountries relied more heavily on domestic debt. Finally, low-income countries with market access turned \nmostly to external financing to meet increased funding needs for the response to the pandemic.\nIn addition to increased global debt loads, other indicators point to latent risks that may endanger the \nfinancial position of governments. In 2020, five governments defaulted on their obligations to external \nprivate creditors, a worrying increase compared with the norm over the post–World War II period. In the \nprevious decade, an average of two governments defaulted every year. Moreover, more than half of the \ncountries eligible for relief under the G20 Debt Service Suspension Initiative (DSSI) are in debt distress \nor at high risk of debt distress. These heightened risks at the government level have dir"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 88,
+        "image_path": "data/advanced/pages/p088.png",
+        "observation": "**Table 1.1 — Domestic debt, High-income column**  \n- **Average, 2010–19:** **−0.30**\n- **2020:** **9.24**\n\nThe unit is **share of GDP (%)**. The average figure is negative."
+      }
+    ],
+    "inspected_pages": [
+      88
+    ],
+    "errors": [],
+    "latency_ms": 10333.78
+  },
+  {
+    "id": "adv_dev_tab_03",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 2.1 (trang 107), có bao nhiêu phần trăm quốc gia thu nhập thấp (Low-income) cho phép sự sẵn có của tài sản đảm bảo giúp ngân hàng tránh phân loại một khoản vay là nợ xấu (nonperforming)?",
+    "gold_pages": [
+      107
+    ],
+    "gold_answer": "6%.",
+    "answer": "6% số quốc gia thu nhập thấp cho phép sự sẵn có của tài sản đảm bảo giúp ngân hàng tránh phân loại một khoản vay là nợ xấu (nonperforming).",
+    "citations": [
+      "wdr2022-p107-tab-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p107-tab-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table 2.1 page 107 low-income countries collateral availability allows banks to avoid classifying loan as nonperforming percentage",
+        "filters": {
+          "page": 107
+        },
+        "results": [
+          {
+            "id": "wdr2022-p107-txt-03",
+            "page": 107,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032266,
+            "snippet": "f collateral allows banks to \navoid classifying a loan as nonperforming\n 6\n 9\n18\nBanks allowed to upgrade the \nclassification of a loan or advance \nimmediately after it has been restructured\n13\n18\n21\nSource: Data from World Bank, BRSS 2019 (Bank Regulation and Supervision Survey, 2019) (dashboard), https://www \n.worldbank.org/en/research/brief/BRSS. \nNote: The fifth iteration of the BRSS collects information on 160 jurisdictions and the European Central Bank. This table \nreports information on low- and middle-income countries. It excludes both high-income countries and jurisdictions with a \npopulation of less than 500,000. The breakdown of countries by income level is low-income, 16; lower-middle-income, 34; \nand upper-middle-income, 38."
+          },
+          {
+            "id": "wdr2022-p107-vis-00",
+            "page": 107,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032266,
+            "snippet": "[Visual description of page 107 (split page 95)]\n[Visual description of page 107 (split page 95)]\n[Visual description of page 107]\n### Visual Element Details\n\n1. **Title and Type**\n   - **Title:** Table 2.1 Countries’ adoption of selected indicators of asset classification systems, by country income group\n   - **Type:** Table\n\n2. **Axes, Units, and Legend Categories**\n   - **Axes:** Not applicable (table format)\n   - **Units:** Share of countries answering “yes” (%)\n   - **Legend Categories:** \n     - Indicator\n     - Low-income\n     - Lower-middle-income\n     - Upper-middle-income\n\n3. **Key Numeric Data Points**\n   - **Indicators:**\n     - **Asset classification system under which banks have to report the quality of their loans and advances using a common regulatory scale:**\n       - Low-income: 88%\n       - Lower-middle-income: 88%\n    "
+          },
+          {
+            "id": "wdr2022-p107-tab-00",
+            "page": 107,
+            "type": "table",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031754,
+            "snippet": "[Table extracted from page 107 (split page 95)]\n| Indicator | Low-income | Lower-middle- income | Upper-middle- income |\n| --- | --- | --- | --- |\n| i Assetclassifcationsystemunderwhich bankshavetoreportthequalityoftheir loansandadvancesusingacommon regulatoryscale | 88 | 88 | 95 |\n| Availabilityofcollateralallowsbanksto avoidclassifyingaloanasnonperforming | 6 | 9 | 18 |\n| Banksallowedtoupgradethe i classifcationofaloanoradvance immediatelyafterithasbeenrestructured | 13 | 18 | 21 |"
+          },
+          {
+            "id": "wdr2022-p107-txt-02",
+            "page": 107,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031754,
+            "snippet": "anks and policy makers, and affects market functioning. At the onset of the pandemic, banks’ reported \ncapital levels in many countries were higher than in the past because they had been bolstered by stronger regulatory standards following the global financial crisis. Nonetheless, significant differences across \njurisdictions and regions (as well as within them) reflect the differing capacity of banking systems to \nabsorb the pandemic shock.\nTable 2.1 Countries’ adoption of selected indicators of asset classification systems, \nby country income group\nShare of countries answering “yes” (%)\nIndicator\nLow-income\nLower-middle- \nincome\nUpper-middle- \nincome\nAsset classification system under which \nbanks have to report the quality of their \nloans and advances using a common \nregulatory scale\n88\n88\n95\nAvailability of collateral allows banks to \n"
+          },
+          {
+            "id": "wdr2022-p107-txt-00",
+            "page": 107,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.030769,
+            "snippet": "RESOLVING BANK ASSET DISTRESS | 85\nto assess borrowers’ payment performance and capacity, and thus the quality of the bank’s loan assets, \nare essential elements of strong bank management and effective supervision (see table 2.1), particularly \nin emerging markets that tend to have relatively simple, bank-centric financial systems.26 Drawing on \nthe 2019 Bank Regulation and Supervision Survey (BRSS), which uses 2016 data, table 2.1 summarizes \nkey features of asset classification systems in emerging economies prior to the guidance supplied by \nthe BCBS.27 Most respondents deployed a consistent asset classification scheme, applied the principle \nthat the availability of collateral does not affect the classification of loan performance, and required \nsuccessful performance of restructured loans over a probationary period before classificati"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 3783.33
+  },
+  {
+    "id": "adv_dev_dia_01",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure O.2 (trang 25), ba giai đoạn thời gian được hiển thị trên thanh mũi tên ngang ở phía dưới sơ đồ theo thứ tự từ trái sang phải là gì?",
+    "gold_pages": [
+      25
+    ],
+    "gold_answer": "Precrisis, COVID-19 pandemic, và Crisis recovery.",
+    "answer": "Theo thứ tự từ trái sang phải, ba giai đoạn là: **Precrisis**, **COVID-19 pandemic**, và **Crisis recovery**.",
+    "citations": [
+      "wdr2022-p025-vis-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p025-vis-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure O.2 page 25 horizontal arrow bottom three time stages",
+        "filters": {
+          "page": 25
+        },
+        "results": [
+          {
+            "id": "wdr2022-p025-vis-00",
+            "page": 25,
+            "type": "visual",
+            "section": "Overview",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 25 (split page 13)]\n[Visual description of page 25 (split page 13)]\n**Figure 0.2 — “Conceptual framework: Interconnected balance sheet risks”** — conceptual diagram.\n\n- **Structure:** Three thick, curved arrows form an interconnected circular cycle around a central opening: teal, yellow, and red. The diagram is enclosed by a dashed navy circle. Callouts identify **Governments and central banks**, **Global economy**, **Households and firms**, and **Financial sector**.\n- **Axes/units/legend:** None; no explicit legend or numeric data.\n- **Timeline beneath the diagram:** A horizontal right-pointing bar labeled, in order, **Precrisis**, **COVID-19 pandemic**, and **Crisis recovery**.\n- **Source/note:** “Source: WDR 2022 team.” Note: “The figure shows the links between the main sectors of an economy through which ri"
+          },
+          {
+            "id": "wdr2022-p025-txt-02",
+            "page": 25,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.032258,
+            "snippet": "elp transform the links between sectors \nof the economy from a vicious “doom loop” into a virtuous cycle (see figure O.3). \nFigure O.2 Conceptual framework: Interconnected balance sheet risks\nCrisis recovery\nPrecrisis\nCOVID-19 pandemic\nGovernments and\ncentral banks\nHouseholds\nGlobal\neconomy\nand firms\nsector\nFinancial\n/\n/\nSource: WDR 2022 team.\nNote: The figure shows the links between the main sectors of an economy through which risks in one sector can affect the \nwider economy."
+          },
+          {
+            "id": "wdr2022-p025-txt-01",
+            "page": 25,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.031746,
+            "snippet": "through numerous mutually reinforcing \nchannels that connect the financial health of households and firms, financial institutions, and governments (see figure O.2). Because of this interconnection, elevated financial risks in one sector can easily \nspill over and destabilize the wider economy if left unchecked. When households and firms are under \nfinancial stress, the financial sector faces a higher risk of loan defaults and is less able to provide credit. \nSimilarly, when the financial position of the public sector deteriorates, for example, as a result of higher \ndebt and debt service, its ability to support households and firms may weaken.\nHowever, this relationship is not deterministic. Well-designed fiscal, monetary, and financial sector \npolicies can counteract and reduce these intertwined risks, and help transform the links betwee"
+          },
+          {
+            "id": "wdr2022-p025-txt-00",
+            "page": 25,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.015625,
+            "snippet": "OVERVIEW | 3\nresponses, and the risks that have materialized or are imminent. These risks include an increase in \nnonperforming loans and financial sector distress; a lack of options for households and businesses to \ndischarge debts incurred during the pandemic through formal insolvency; tighter access to credit; and \nelevated levels of sovereign debt. With the goal of directing countries toward options that can support \nan equitable recovery, this Report then highlights policies that respond to some of the adverse impacts \nof the crisis and mitigate spillovers of financial risks. \nThe economic impacts of the pandemic\nInterconnected financial risks\nAlthough household and business incomes were most directly affected by the crisis, the consequences \nof this large shock have repercussions for the entire economy through numerous mutually rein"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 3555.66
+  },
+  {
+    "id": "adv_dev_dia_02",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Trong sơ đồ Figure O.3 bảng a (Vicious cycle, trang 26), trạng thái tiêu cực nào của khu vực Households and firms dẫn tới Lower tax revenue và Bank instability?",
+    "gold_pages": [
+      26
+    ],
+    "gold_answer": "NPLs and corporate insolvencies (và thu nhập/doanh thu suy giảm gây Lower tax revenue và Bank instability).",
+    "answer": "Đó là **NPLs and corporate insolvencies** (nợ xấu và tình trạng doanh nghiệp mất khả năng thanh toán).",
+    "citations": [
+      "wdr2022-p026-vis-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p026-vis-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure O.3 panel a Vicious cycle Households and firms Lower tax revenue Bank instability",
+        "filters": {
+          "page": 26
+        },
+        "results": [
+          {
+            "id": "wdr2022-p026-vis-00",
+            "page": 26,
+            "type": "visual",
+            "section": "Overview",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 26 (split page 14)]\n[Visual description of page 26 (split page 14)]\n**Figure 0.3 — “Conceptual framework: Vicious and virtuous cycles”**  \n**Type:** Two-panel conceptual diagram. No axes or units.\n\n- **a. Vicious cycle:** The circular cycle is divided among **Governments and central banks** (blue), the **Financial sector** (red), and **Households and firms** (yellow). The outcomes shown around it are: **Lower tax revenue**, **Bank instability**, **NPLs and corporate insolvencies**, **Unfavorable bond markets**, **Restricted access to credit**, and **Declining fiscal support**.\n- **b. Virtuous cycle:** Uses the same three color-coded groups. The corresponding outcomes are: **Higher tax revenue**, **Stable banks**, **Improved loan performance**, **Favorable bond markets**, **Improved credit supply**, and **Strong"
+          },
+          {
+            "id": "wdr2022-p026-txt-00",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.032258,
+            "snippet": "4 | WORLD DEVELOPMENT REPORT 2022\nFigure O.3 Conceptual framework: Vicious and virtuous cycles\nSource: WDR 2022 team, based on Schnabel (2021).\nNote: NPLs = nonperforming loans.\nGovernments and central banks\nFinancial sector\nHouseholds and firms\nStronger\nfiscal support\nImproved\ncredit supply\nHigher tax revenue \nStable banks\nFavorable\nbond markets\nImproved loan\nperformance\nb. Virtuous cycle\nBank instability\nLower tax revenue\nNPLs and\ncorporate\ninsolvencies\nUnfavorable\nbond markets\nRestricted\naccess to\ncredit\nDeclining\nfiscal\nsupport\na. Vicious cycle\nOne example of policies that can make a critical difference are those targeting the link between the \nfinancial health of households, businesses, and the financial sector. In response to lockdowns and mobility restrictions necessary to contain the virus, many governments supported borrowers thr"
+          },
+          {
+            "id": "wdr2022-p026-txt-03",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.031746,
+            "snippet": "ty for the financial sector \ndo not change the underlying economic conditions of borrowers. The risks now embedded in bank balance sheets will have to be addressed to ensure that the financial sector is well capitalized going into the \nrecovery phase and is able to fulfill its role of providing credit to finance consumption and investment.\nThe crisis response will also need to include policies that address the risks arising from high levels \nof sovereign debt to ensure that governments preserve their ability to effectively support the recovery. The support measures adopted to mitigate the immediate impact of the pandemic on households \nand businesses required new government spending at a time when many governments were already"
+          },
+          {
+            "id": "wdr2022-p026-txt-01",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.03101,
+            "snippet": "nments supported borrowers through direct \ncash transfers and financial policy tools, including debt moratoria and credit guarantees. As the crisis \nunfolded, these policies provided much-needed support to households and small businesses and helped \navert a wave of insolvencies and loan defaults, which could have threatened the stability of the financial \nsector. Looking ahead, ensuring that debt burdens for households and businesses are sustainable and \nthat there is continued access to credit is essential for an equitable recovery.\nSimilarly, governments, central banks, and regulators also used policy tools to assist financial institutions and prevent financial sector risks from spilling over to other parts of the economy. In many \ncountries, central banks lowered interest rates, injected liquidity into the market, broadened access to \n"
+          },
+          {
+            "id": "wdr2022-p026-txt-02",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.03101,
+            "snippet": "market, broadened access to \nrefinancing facilities, and reduced provisioning requirements. These measures enabled banks and other \ninstitutions to continue to offer financing to households and businesses. Like many other central banks, \nthe Central Reserve Bank of Peru, for example, injected liquidity into the banking system through \ngovernment-backed repurchase (repo) agreements, which reduced the interest rate on new credit. Central banks also made unprecedented use of unconventional monetary policy tools such as asset purchase \nprograms. Twenty-seven emerging economies adopted such programs for the first time in response to \nthe COVID-19 crisis.7 These measures were aimed at preventing a liquidity crisis and safeguarding financial stability. However, debt moratoria and the provision of additional liquidity for the financial sector \ndo"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 26,
+        "image_path": "data/advanced/pages/p026.png",
+        "observation": ""
+      }
+    ],
+    "inspected_pages": [
+      26
+    ],
+    "errors": [],
+    "latency_ms": 15025.81
+  },
+  {
+    "id": "adv_dev_dia_03",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure 2.4 (Nonperforming loan reduction flowchart, trang 117), đối với người vay thuộc nhóm Nonviable/uncooperative (màu đỏ), có những biện pháp xử lý nợ xấu nào được mũi tên trỏ tới?",
+    "gold_pages": [
+      117
+    ],
+    "gold_answer": "Gồm 3 biện pháp: Legal action, Write-off, và Sale (không áp dụng Loan restructure).",
+    "answer": "Đối với người vay thuộc nhóm **Nonviable/uncooperative** (màu đỏ), các mũi tên trỏ tới **Legal action**, **Write-off** và **Sale**. Không có mũi tên trỏ tới **Loan restructure**.",
+    "citations": [
+      "wdr2022-p117-txt-02",
+      "page:117"
+    ],
+    "raw_citations": [
+      "wdr2022-p117-txt-02",
+      "page:117"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure 2.4 Nonperforming loan reduction flowchart page 117 Nonviable uncooperative red measures arrows",
+        "filters": {
+          "page": 117
+        },
+        "results": [
+          {
+            "id": "wdr2022-p117-vis-00",
+            "page": 117,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 117 (split page 105)]\n[Visual description of page 117 (split page 105)]\n[Visual description of page 117]\n### Visual Element Analysis\n\n1. **Title and Type**\n   - **Title:** Nonperforming loan reduction flowchart\n   - **Type:** Flowchart\n\n2. **Axes, Units, and Legend Categories**\n   - **Axes:** Not applicable for flowchart.\n   - **Units:** Not applicable for flowchart.\n   - **Legend Categories:**\n     - Borrower status: \n       - Viable/cooperative (indicated in green)\n       - Nonviable/uncooperative (indicated in red)\n     - Nonperforming loan reduction measures:\n       - Loan restructure\n       - Legal action\n       - Write-off\n       - Sale\n\n3. **Key Numeric Data Points and Flowchart Steps**\n   - **Flowchart Steps:**\n     - From \"Borrower status\":\n       - Viable/cooperative leads to:\n         - Loan restruct"
+          },
+          {
+            "id": "wdr2022-p117-txt-02",
+            "page": 117,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032258,
+            "snippet": "g practices (such as long grace periods, bullet payments,57 or frequent rescheduling) \nthat exacerbate allocative inefficiencies by locking up the credit stock in highly indebted, underperforming economic sectors at the expense of more promising ones.58 Although unviable and uncooperative \nborrowers need to be dealt with resolutely, the depth of the recession puts a high premium on efforts \nFigure 2.4 Nonperforming loan reduction flowchart\nSource: WDR 2022 team.\nBorrower\nstatus\nNonperforming loan\n reduction measure\nLoan\nrestructure\nLegal\naction\nWrite-off\nSale\nViable/\ncooperative\nNonviable/\nuncooperative\nNPV analysis is\nbased on realistic\nrecovery and \ndiscount rates. \nAll costs are included. \nNet present value\n(NPV) analysis"
+          },
+          {
+            "id": "wdr2022-p117-txt-01",
+            "page": 117,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031746,
+            "snippet": "early on, before banks’ balance \nsheets become severely burdened with increasing NPLs.56 \nPoorly functioning enforcement and insolvency frameworks can also discourage banks from dealing \nforcefully with nonviable or uncooperative borrowers. Absent reliable mechanisms, banks may not be \nable to steer such borrowers toward an orderly exit through legal action. Political pressure, too, may \nstand in the way of decisive handling of nonviable state-owned enterprises or national champions. \nBanks may be pressured to keep such borrowers afloat through frequent rounds of loan restructuring, or \nthey may be restricted in their ability to encourage distressed firms to undertake the operational measures needed to restore financial sustainability and commercial viability. The result can be questionable \nloan restructuring practices (such as long grac"
+          },
+          {
+            "id": "wdr2022-p117-txt-00",
+            "page": 117,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.03125,
+            "snippet": "RESOLVING BANK ASSET DISTRESS | 95\ninsolvency and debt restructuring frameworks (figure 2.4). This is an area in which many emerging economies stumble, resulting in low and unpredictable recovery prospects for lenders and restricting the \nrange of methods for reducing NPLs. Borrowers may also be less inclined to repay according to their \nfull financial capacity if they are able to delay enforcement proceedings. The result can be elevated, \npersistent NPLs.55 The financial crises in Asia—and globally a decade later—brought home the need \nfor comprehensive reforms to address weaknesses in debt resolution, insolvency, and creditor rights, \nwith separate tracks for corporate and retail bankruptcies. Because of their complexity and breadth, \nthese reforms tend to be time-consuming and are therefore best initiated early on, before banks’ balanc"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 117,
+        "image_path": "data/advanced/pages/p117.png",
+        "observation": "Trong Figure 2.4, ba mũi tên đỏ từ **“Nonviable/uncooperative”** trỏ tới:\n\n- **Legal action**\n- **Write-off**\n- **Sale**\n\nKhông có mũi tên đỏ tới **Loan restructure**. Phần phân tích NPV ghi: “NPV analysis is based on realistic recovery and discount rates. All costs are included.” Không có số liệu, trục hay đơn vị trong sơ đồ."
+      }
+    ],
+    "inspected_pages": [
+      117
+    ],
+    "errors": [],
+    "latency_ms": 9485.38
+  },
+  {
+    "id": "adv_dev_cht_01",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure O.9 (trang 39), tỷ lệ nợ gộp của chính phủ (General government gross debt, % GDP) của nhóm High-income tăng từ bao nhiêu % năm 2019 lên bao nhiêu % năm 2020?",
+    "gold_pages": [
+      39
+    ],
+    "gold_answer": "Tăng từ 65.6% GDP (năm 2019) lên 79.2% GDP (năm 2020), tăng 13.6 điểm phần trăm.",
+    "answer": "Theo Figure O.9, tỷ lệ nợ gộp của chính phủ ở nhóm High-income tăng từ 65,6% GDP năm 2019 lên 79,2% GDP năm 2020.",
+    "citations": [
+      "wdr2022-p039-vis-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p039-vis-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure O.9 general government gross debt high-income 2019 2020 page 39",
+        "filters": {
+          "page": 39
+        },
+        "results": [
+          {
+            "id": "wdr2022-p039-vis-00",
+            "page": 39,
+            "type": "visual",
+            "section": "Overview",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 39 (split page 27)]\n[Visual description of page 39 (split page 27)]\n**Figure 0.9 — “General government gross debt, by country income group, 2010–20”**; line chart.\n\n- **X-axis:** Year, 2010–2020.\n- **Y-axis:** Share of GDP (%), with ticks from 30 to 80.\n- **Legend:** High-income; Upper-middle-income; Lower-middle-income; Low-income.\n- **Labeled values (% of GDP):**\n  - **2010:** High-income 58.8; Upper-middle-income 39.8; Lower-middle-income 36.7; Low-income 41.0.\n  - **2019:** High-income 65.6; Upper-middle-income 55.6; Lower-middle-income 54.4; Low-income 60.9.\n  - **2020:** High-income 79.2; Upper-middle-income 68.4; Lower-middle-income 61.4; Low-income 67.0.\n- **Trend:** Debt shares generally rise over the period. From 2019 to 2020, all four groups increase, with the largest jump for high-income countries."
+          },
+          {
+            "id": "wdr2022-p039-txt-03",
+            "page": 39,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.032258,
+            "snippet": "ank.org/world-development-indicators/.\nNote: The figure shows the general government debt stock as a share of gross domestic product (GDP) by World Bank \nincome classification.\n30\nShare of GDP (%)\n40\n50\n60\n70\n80\n2010\n2011\n2013\n2015\n2017\n2019\n2012\n2014\n2016\n2018\n2020\nUpper-middle-income\nLower-middle-income\nLow-income\nHigh-income\n36.7\n39.8\n41.0\n58.8\n68.4\n55.6\n79.2\n65.6\n67.0\n60.9\n61.4\n54.4"
+          },
+          {
+            "id": "wdr2022-p039-txt-02",
+            "page": 39,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.031746,
+            "snippet": "lly understand the problem and \noften offering the financing to make the deal viable.\nA swift, deep restructuring agreement allows a faster and more sustained recovery.45 The historical \ntrack record, however, reveals that resolution of sovereign debt distress is often delayed for years. Even \nwhen a country enters negotiations with its creditors, multiple rounds of debt restructuring are often \nneeded for it to emerge from debt distress (see figure O.10). The Democratic Republic of Congo, Jamaica, \nand Nigeria each had to negotiate seven debt restructuring deals before resolving their debt situations. \nFigure O.9 General government gross debt, by country income group, 2010–20\nSource: WDR 2022 team, based on data from IMF (2021b); World Bank, World Development Indicators (database), https://\ndatatopics.worldbank.org/world-development-indi"
+          },
+          {
+            "id": "wdr2022-p039-txt-01",
+            "page": 39,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.03125,
+            "snippet": "exclusion of the country from global capital markets, and is \nassociated with a smaller loss in output.44 \nResolving debt distress \nOnce a government is in debt distress, the options to treat the problem are more limited and the urgency \nis greater. A primary tool at this stage is debt restructuring coupled with a medium-term fiscal and \neconomic reform plan. Use of this tool requires prompt recognition of the extent of the problem, coordination with and among creditors, and an understanding by all parties that restructuring is the first \nstep toward debt sustainability. International financial institutions such as the World Bank and the \nInternational Monetary Fund (IMF) play an important role in the debt restructuring process for emerging economies by providing the debt sustainability analyses needed to fully understand the problem and "
+          },
+          {
+            "id": "wdr2022-p039-txt-00",
+            "page": 39,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.030769,
+            "snippet": "OVERVIEW | 17\noperations can also help address currency risk, which often adds to debt sustainability concerns. In this \ncase, instead of changing the maturity of the existing debt, the debt reprofiling operation retires the \nexisting debt denominated in one (more expensive or volatile) currency by issuing new debt in another \n(less expensive or more stable) currency.\nCountries facing elevated default risk also have the option of initiating preemptive negotiations with \ntheir creditors to reach debt restructuring. This option particularly benefits from transparency around \nthe terms and ownership of the debt. Minimizing the chances of holdouts is important to ensure a \nspeedy resolution. Some evidence shows that a preemptive restructuring is resolved faster than a postdefault restructuring, leads to a shorter exclusion of the country from"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 39,
+        "image_path": "data/advanced/pages/p039.png",
+        "observation": "Figure O.9, “General government gross debt, by country income group, 2010–20”:\n\n- **High-income, 2019: 65.6% of GDP**\n- **High-income, 2020: 79.2% of GDP**\n\nThe y-axis is “Share of GDP (%)” and runs from **30% to 80%**, with ticks every 10 percentage points. The x-axis shows years **2010–2020**. The legend identifies the series as **High-income**. No dashed reference lines are shown."
+      }
+    ],
+    "inspected_pages": [
+      39
+    ],
+    "errors": [],
+    "latency_ms": 20049.16
+  },
+  {
+    "id": "adv_dev_cht_02",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ cột chồng Figure BI.1.1 (trang 65), tổng số quốc gia High-income triển khai chương trình mua tài sản của ngân hàng trung ương là bao nhiêu quốc gia, và chia theo 3 loại (Government bonds, Corporate bonds, Both) như thế nào?",
+    "gold_pages": [
+      65
+    ],
+    "gold_answer": "Tổng cộng 14 quốc gia (6 quốc gia mua Government bonds, 2 quốc gia mua Corporate bonds, và 6 quốc gia mua Both).",
+    "answer": "Theo Figure BI.1.1, tổng cộng **14 quốc gia High-income** triển khai chương trình mua tài sản: **Government bonds: 6 quốc gia; Corporate bonds: 2 quốc gia; Both: 6 quốc gia**.",
+    "citations": [
+      "wdr2022-p065-vis-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p065-vis-00",
+      "page:065"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure BI.1.1 page 65 High-income central bank asset purchase programs Government bonds Corporate bonds Both",
+        "filters": {
+          "page": 65
+        },
+        "results": [
+          {
+            "id": "wdr2022-p065-vis-00",
+            "page": 65,
+            "type": "visual",
+            "section": "Introduction",
+            "score": 0.032787,
+            "snippet": "[Visual description of page 65 (split page 53)]\n[Visual description of page 65 (split page 53)]\n**Figure BI.1.1 — “Asset purchase programs of central banks during the COVID-19 crisis, by country income group”** — stacked bar chart.\n\n- **Y-axis:** Number of countries, 0–14, in increments of 2.\n- **X-axis:** Country income group: High-income, Upper-middle-income, Lower-middle-income, Low-income.\n- **Legend / bar segments:** Government bonds; Corporate bonds; Both.\n- **Values (countries):**\n  - High-income: Government bonds 6; Corporate bonds 2; Both 6. **Total: 14**\n  - Upper-middle-income: 5; 2; 3. **Total: 10**\n  - Lower-middle-income: 5; 2; 4. **Total: 11**\n  - Low-income: 2; 1; 5. **Total: 8**"
+          },
+          {
+            "id": "wdr2022-p065-txt-03",
+            "page": 65,
+            "type": "text",
+            "section": "Introduction",
+            "score": 0.032258,
+            "snippet": "ganda. In several countries, adoption of such programs required \nchanges in the laws governing the operations of \nthe central bank. Brazil, for example, changed its \nconstitution to allow the central bank to carry out \nmonetary financing operations, including the direct \npurchase of government bonds. Thailand’s parliament approved a law to set up a B 400 billion ($12.3 \nbillion) fund to buy corporate bonds.\n(Box continues next page)\nFigure BI.1.1 Asset purchase programs \nof central banks during the COVID-19 \ncrisis, by country income group\nSource: WDR 2022 team, based on Fratto et al. (2021). \nNote: The figure shows the number of countries that \nintroduced asset purchase programs in response to \nthe pandemic, by income group, disaggregated by \nwhether the central bank was authorized to purchase \ngovernment bonds, corporate bonds, or both."
+          },
+          {
+            "id": "wdr2022-p065-txt-02",
+            "page": 65,
+            "type": "text",
+            "section": "Introduction",
+            "score": 0.031746,
+            "snippet": "trument was asset purchase programs (figure \nBI.1.1), which before the COVID-19 crisis had been \nused almost exclusively in advanced economies—\nmost notably by the US Federal Reserve Bank and \nthe European Central Bank in the aftermath of \nthe global financial crisis. Where asset purchase \nprograms are aimed at buying government bonds, \nthey increase the demand for longer-term government debt and reduce its cost, which directly \nsupports the government’s ability to finance future \nspending.\nIn response to the COVID-19 crisis, between \nMarch and August 2020, 8 low-income countries, \n11 lower-middle-income countries, and 10 uppermiddle-income countries initiated asset purchase \nprograms.a Examples of countries that initiated \nasset purchase programs include Angola, the Arab \nRepublic of Egypt, Costa Rica, and Uganda. In several countries, a"
+          },
+          {
+            "id": "wdr2022-p065-txt-04",
+            "page": 65,
+            "type": "text",
+            "section": "Introduction",
+            "score": 0.03101,
+            "snippet": "nds, corporate bonds, or both. Data \nfor the Central Bank of West African States are considered for each individual member state.\nHigh- \nincome\nUppermiddleincome\nLowermiddle- \nincome\nLow- \nincome\nNumber of countries\n0\n6\n4\n2\n8\n14\n12\n10\nGovernment \nbonds\nBoth\nCorporate \nbonds\n5\n3\n2\n5\n2\n4\n5\n2\n1\n6\n2\n6"
+          },
+          {
+            "id": "wdr2022-p065-txt-01",
+            "page": 65,
+            "type": "text",
+            "section": "Introduction",
+            "score": 0.03101,
+            "snippet": "unconventional monetary policy refers to policy \ninstruments that go beyond the traditional regulatory and interest rate-setting powers of a central \nbank. Examples include asset purchase programs \nin which the central bank buys government or corporate bonds to inject liquidity into the economy \nand keep interest rates low; extraordinary liquidity \noperations, such as the central bank providing the \nfinancial sector with liquidity on the condition that \nit is used to issue new loans; or forward guidance, \nin which the central bank seeks to influence market \nexpectations to stimulate economic activity.\nTo mobilize the full set of policy instruments at \ntheir disposal, central banks in emerging economies \nmade extensive use of these new monetary policy \ntools, many for the first time. The most widely used \ninstrument was asset purchase prog"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 65,
+        "image_path": "data/advanced/pages/p065.png",
+        "observation": "**Figure BI.1.1 — High-income countries**\n\n- Government bonds: **6 countries**\n- Corporate bonds: **2 countries**\n- Both: **6 countries**\n- **Total: 14 countries**\n\nThe chart’s y-axis is “Number of countries,” with labeled ticks from **0 to 14** in increments of **2**."
+      }
+    ],
+    "inspected_pages": [
+      65
+    ],
+    "errors": [],
+    "latency_ms": 8479.29
+  },
+  {
+    "id": "adv_dev_cht_03",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure 2.5 (trang 121), tỷ lệ nợ xấu trên tổng dư nợ (NPL ratio) của Serbia vào năm diễn ra cải cách (2015) là khoảng bao nhiêu % và đến tháng 12/2020 giảm xuống mức thấp lịch sử bao nhiêu %?",
+    "gold_pages": [
+      121
+    ],
+    "gold_answer": "Khoảng 21–22% vào năm 2015 (khi thực hiện cải cách) và giảm xuống mức thấp lịch sử 3.7% vào tháng 12/2020.",
+    "answer": "Theo Figure 2.5, NPL ratio của Serbia vào năm cải cách 2015 vào khoảng **21,5%** (ước lượng từ biểu đồ). Đến tháng 12/2020, tỷ lệ này giảm xuống mức thấp lịch sử **3,7%**.",
+    "citations": [
+      "wdr2022-p121-vis-00",
+      "wdr2022-p121-txt-01"
+    ],
+    "raw_citations": [
+      "wdr2022-p121-vis-00",
+      "wdr2022-p121-txt-01"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure 2.5 Serbia NPL ratio 2015 December 2020 historical low",
+        "filters": {
+          "page": 121
+        },
+        "results": [
+          {
+            "id": "wdr2022-p121-vis-00",
+            "page": 121,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032018,
+            "snippet": "[Visual description of page 121 (split page 109)]\n[Visual description of page 121 (split page 109)]\n[Visual description of page 121]\nHere’s the information extracted from the visual element on page 121 of the World Development Report 2022:\n\n1. **Title and Type**: \n   - **Title**: Ratio of nonperforming loans to total loans, Serbia, 2010–20\n   - **Type**: Line chart\n\n2. **Axes, Units, and Legend Categories**:\n   - **X-axis**: Years (2010 to 2020)\n   - **Y-axis**: Percentage (%)\n   - **Legend Categories**: \n     - Solid line representing the ratio of nonperforming loans to total loans\n     - Dashed vertical lines indicating the years when reforms were implemented\n\n3. **Key Numeric Data Points and Trends**:\n   - The ratio of nonperforming loans starts at approximately 20% in 2010.\n   - It fluctuates slightly but generally trends downward, re"
+          },
+          {
+            "id": "wdr2022-p121-txt-01",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032018,
+            "snippet": "nd Justice and \nthe National Bank of Serbia, and as members representatives of the Chamber of Commerce and the \nDeposit Insurance Agency. In addition, the World Bank, IMF, International Finance Corporation (IFC), \nand European Bank for Reconstruction and Development were invited to play an active role in the \nworking group and in the design of the strategy. The working group identified four strategic priorities: (1) improving bank capacity to deal with NPLs; (2) enabling conditions for development of the NPL \nmarket; (3) improving and promoting out-of-court restructuring; and (4) improving an in-court debt \nand mortgage resolution framework. Progress was reviewed and discussed on a quarterly basis. The \nstrategy contributed to a rapid decrease in the NPL ratio, which reached a historic low of 3.7 percent in \nDecember 2020 (figure 2.5).70 "
+          },
+          {
+            "id": "wdr2022-p121-txt-03",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032002,
+            "snippet": "total loans, Serbia, 2010–20\nSource: WDR 2022 team, based on data from National Bank of Serbia, https://www.nbs.rs/export/sites/NBS_site \n/documents-eng/finansijska-stabilnost/pregled_grafikona_e.pdf.\n0\n10\n5\n15\n20\n25\n30\nPercent\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\nReforms implemented"
+          },
+          {
+            "id": "wdr2022-p121-txt-02",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032002,
+            "snippet": "December 2020 (figure 2.5).70 \nPublic asset management companies \nIn addition to establishing systemwide policies, some regions and countries, including the European \nUnion and Ukraine, have considered establishing public asset management companies (AMCs) to complement bank NPL reduction efforts.71 Public AMCs allow removal of NPLs from the financial system, \nwhile still maximizing the recovery value of these assets.72 Indonesia, the Republic of Korea, Malaysia, \nand Thailand, among other countries, used public AMCs in the Asian financial crisis in the late 1990s to \nclean bank balance sheets and to restructure distressed banks. 73 Advanced economies such as Ireland, \nSlovenia, and Spain also used public AMCs in the aftermath of the global financial crisis. And more \nFigure 2.5 Ratio of nonperforming loans to total loans, Serbia, 2010–20\n"
+          },
+          {
+            "id": "wdr2022-p121-txt-00",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.030769,
+            "snippet": "RESOLVING BANK ASSET DISTRESS | 99\nhas shown that banks, left to their own devices, are slow to reduce elevated NPLs.69 Reducing high NPLs \nrequires the participation of a broad range of stakeholders to align policies: representatives of private \nsector entities (banks, institutional investors, and third-party service providers), national authorities \n(central banks and banking supervisory agencies, finance and justice ministries), civil society groups \n(consumer organizations), and occasionally international financial institutions.\nExperiences in several ECA countries after the global financial crisis confirmed the importance of \npolicy coordination. For example, Serbia established a national NPL working group in May 2015 that \nincluded as core members representatives of the Ministries of Economy, Finance, and Justice and \nthe National B"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 121,
+        "image_path": "data/advanced/pages/p121.png",
+        "observation": "- **2015:** The chart places Serbia’s NPL ratio at approximately **21.5 percent**. This is a visual estimate; the point is not numerically labeled. The dashed vertical line marking “Reforms implemented” aligns with **2015**.\n- **December 2020:** The text below the chart gives the historic low as **3.7 percent**. The chart’s endpoint is around that level.\n\nThe chart’s y-axis is **Percent**, with ticks from **0 to 30** in increments of **5**; its x-axis shows **2010–2020**."
+      }
+    ],
+    "inspected_pages": [
+      121
+    ],
+    "errors": [],
+    "latency_ms": 10622.71
+  },
+  {
+    "id": "adv_dev_mhp_01",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Table B1.2.1 (trang 85) và biểu đồ Figure B1.2.1 (trang 86), chính sách nới lỏng quy định (regulatory forbearance) của Ấn Độ được công bố và rút lại vào những năm nào, và tỷ lệ NPL của ngân hàng nhà nước (Public banks) thay đổi ra sao từ năm công bố đến năm 2016?",
+    "gold_pages": [
+      85,
+      86
+    ],
+    "gold_answer": "Chính sách được công bố năm 2008 và rút lại năm 2013; tỷ lệ NPL của ngân hàng nhà nước (Public banks) ở Ấn Độ tăng từ khoảng 2% (2008) lên trên 9% vào năm 2016.",
+    "answer": "Ấn Độ công bố chính sách regulatory forbearance vào **2008** và rút lại vào **2013**. Theo Figure B1.2.1, tỷ lệ NPL của **Public banks** tăng từ khoảng **1,9%** năm 2008 lên khoảng **9,3%** năm 2016 — tăng khoảng **7,4 điểm phần trăm**, gần gấp năm lần. Các mức tỷ lệ là ước lượng từ biểu đồ, không được ghi nhãn trực tiếp.",
+    "citations": [
+      "wdr2022-p085-txt-00",
+      "wdr2022-p086-txt-02"
+    ],
+    "raw_citations": [
+      "wdr2022-p085-txt-00",
+      "wdr2022-p086-txt-02",
+      "page:086"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table B1.2.1 India regulatory forbearance announced withdrawn years Public banks NPL Figure B1.2.1",
+        "filters": {
+          "page": 85
+        },
+        "results": [
+          {
+            "id": "wdr2022-p085-txt-04",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032787,
+            "snippet": "atio (11 percent) among this group of countries.\nContrary to the intention of the policy, regulatory forbearance also encouraged banks to channel \ncredit to low-liquidity and low-solvency borrowers. \nAs a result, zombie firms emerged on a large scale \nin the Indian corporate sector. In 2016, approximately 40 percent of nonfinancial firms in India had \n(Box continues next page)\nTable B1.2.1 Provisioning requirements \nby loan category, India, 2008\nAsset \nNPL duration Provisioning\ncategory \n(months) \nrate (%)\nStandard \n — \n0.25–1 \nSubstandard \n<12 \n 10\nDoubtful \n12–24 \n 20"
+          },
+          {
+            "id": "wdr2022-p085-txt-03",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032258,
+            "snippet": "dian banking system. Stateowned banks, in particular, saw their stressed assets \npile up—a problem that became apparent once the \nregulation was withdrawn (see figure B1.2.1).b The \nmarked difference in the accumulation of stressed \nassets between private and state-owned banks \nindicates that the negative consequences of the \npolicy are not uniform and may be exacerbated by \npoor corporate governance.\nThe rise in nonperforming loans (NPLs) resulting \nfrom diminishment of the crisis had a large impact \non asset quality in the Indian financial sector. Prior \nto the global financial crisis, India had the lowest \nNPL ratio (2 percent) of all G20 nations. Between \n2008 and 2018, the share of nonperforming and \nrestructured loans in India’s banking system rose \ndramatically, and by 2018 India had the highest NPL \nratio (11 percent) among this g"
+          },
+          {
+            "id": "wdr2022-p085-txt-00",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031498,
+            "snippet": "EMERGING RISKS TO THE RECOVERY | 63\nBox 1.2 The unintended consequences of regulatory forbearance\nDuring the COVID-19 crisis, many countries experimented with regulatory forbearance policies that \nrelaxed capital requirements or accounting standards for banks in the hope they would provide borrowers with temporary relief.a Although it is too early \nto assess the impact of these regulatory forbearance \npolicies, past experiences can serve as a useful illustration of the longer-term risks such policies can \npose to financial stability and economic growth.\nOne especially instructive example is India, \nwhich lowered capital provisioning requirements in \nresponse to the 2007–09 global financial crisis. In \n2008, the Reserve Bank of India (RBI) announced it \nwould apply “special regulatory treatment” to loans \nunder temporary liquidity stress. "
+          },
+          {
+            "id": "wdr2022-p085-vis-00",
+            "page": 85,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031258,
+            "snippet": "[Visual description of page 85 (split page 73)]\n[Visual description of page 85 (split page 73)]\n[Visual description of page 85]\n### Visual Elements on Page 85 of World Development Report 2022\n\n#### 1. Table B1.2.1: Provisioning requirements by loan category, India, 2008\n- **Type**: Table\n- **Axes/Units**: \n  - **Asset category**: NPL duration (months)\n  - **Provisioning rate (%)**\n  \n- **Legend Categories**:\n  - **Standard**: NPL duration —, Provisioning rate 0.25–1%\n  - **Substandard**: NPL duration <12, Provisioning rate 10%\n  - **Doubtful**: \n    - NPL duration 12–24, Provisioning rate 20%\n    - NPL duration 25–48, Provisioning rate 30%\n    - NPL duration >48, Provisioning rate 100%\n  - **Loss**: Provisioning rate 100%\n\n- **Key Numeric Data Points**:\n  - Standard: 0.25–1%\n  - Substandard: <12 months → 10%\n  - Doubtful: \n    - 12–24 mon"
+          },
+          {
+            "id": "wdr2022-p085-txt-02",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.030777,
+            "snippet": "substantially, as table B1.2.1 \nillustrates. In other words, banks would be required \nto increase their capital reserves to protect themselves against the higher default risk of these loans.\nThe RBI regulation did not provide explicit criteria for identifying liquidity-constrained firms, \nleaving it up to the banks to decide which loans \nto assign to the new restructured category. Banks \ntook full advantage of this ambiguity and extensively used the restructured category to avoid \nhaving to add to their capital reserves. In this way, \nthe policy gave banks an incentive to obscure the \ntrue asset quality of the loans on their books and \noffered them a route to continually postponing or \naltogether avoiding recognition of troubled assets.\nThis situation led to a significant buildup of \nstressed assets in the Indian banking system. Stateowne"
+          }
+        ]
+      },
+      {
+        "tool": "search",
+        "query": "Figure B1.2.1 India public banks NPL ratio regulatory forbearance 2008 2016 announced withdrawn",
+        "filters": {
+          "page": 86
+        },
+        "results": [
+          {
+            "id": "wdr2022-p086-vis-00",
+            "page": 86,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "[Visual description of page 86 (split page 74)]\n[Visual description of page 86 (split page 74)]\n[Visual description of page 86]\n### Visual Element Analysis\n\n#### Title and Type\n1. **Title:** Figure B1.2.1 Nonperforming loans in India, 2005–16  \n   **Type:** Line Chart\n\n#### Axes, Units, and Legend Categories\n- **X-Axis:** Years (2005 to 2016)\n- **Y-Axis:** Ratio of NPLs (Nonperforming Loans) to Total Advances\n- **Units:** Ratio (no specific unit, expressed as a percentage)\n- **Legend Categories:**\n  - **Public banks:** Represented by a dark blue line\n  - **Private banks:** Represented by a light blue line\n\n#### Key Numeric Data Points and Trends\n- **2005:** Public banks ~ 4.5, Private banks ~ 2.0\n- **2006:** Public banks ~ 4.0, Private banks ~ 1.8\n- **2007:** Public banks ~ 3.5, Private banks ~ 1.5\n- **2008:** Public banks ~ 8.0, Private "
+          },
+          {
+            "id": "wdr2022-p086-txt-02",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "effects on access to \ncredit, industry structure, and financial stability even \nafter a policy is withdrawn. As economies recover, \nactive and costly intervention may be needed to \naddress some of these longer-term legacies, such as \nzombie lending and the undercapitalization of banks.\na. Acharya, Engle, and Steffen (2021). \nb. Chari, Jain and Kulkarni (2021).\nSource: Chari, Jain, and Kulkarni 2021.\nNote: The figure shows the ratio of nonperforming loans (NPLs) to total advances for state-owned banks and private \nbanks in India between 2005 and 2016. Dashed lines mark the announcement and withdrawal of the regulatory forbearance policy.\nFigure B1.2.1 Nonperforming loans in India, 2005–16\n0\n2\n4\n6\n8\n10\nRatio of NPLs to total advances\n2005\n2006\n2008\n2010\n2012\n2014\n2016\n2007\n2009\n2011\n2013\n2015\nPublic banks \nPrivate banks\nPolicy announced\nPol"
+          },
+          {
+            "id": "wdr2022-p086-txt-00",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031746,
+            "snippet": "64 | WORLD DEVELOPMENT REPORT 2022\nBox 1.2 The unintended consequences of regulatory forbearance (continued)\nan interest coverage ratio (the ratio of revenue to \ninterest payments) of less than 2, and 21 percent \nof firms had an interest coverage ratio of less than \n1, meaning that they were unable to cover their \ndebt payments with current revenue. The average \ninterest coverage ratio of Indian firms fell by nearly \nhalf, from 6.92 in 2007 to 3.38 by 2015. At the same \ntime, overall debt levels remained unchanged, suggesting that the debt service capacity of the Indian \ncorporate sector had sharply declined. This increase \nin zombie lending also made it more difficult for \nhealthy firms to obtain loans from banks, with obvious negative implications for economic growth.\nMeanwhile, regulatory forbearance functioned \nas an implicit subsidy "
+          },
+          {
+            "id": "wdr2022-p086-txt-01",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "ioned \nas an implicit subsidy for the financial sector that \nallowed the government to delay costly bank \nrecapitalization. Recognizing loan losses in a timely \nfashion would have undoubtedly weakened bank \nbalance sheets and necessitated large bank recapitalizations. Because state-owned banks account \nfor approximately 70 percent of the Indian banking \nsector, recognition would have entailed significant \ncosts for the government relative to budget-neutral \nforbearance schemes. \nIn light of the many regulatory forbearance policies enacted in the wake of the COVID-19 crisis, \nIndia’s experiment with regulatory forbearance in a \npast crisis serves as a cautionary tale. It may be challenging to unwind improperly designed temporary \nforbearance measures, and many of these policies \nwill have long-lasting negative effects on access to \ncredit,"
+          },
+          {
+            "id": "wdr2022-p086-txt-03",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "vate banks\nPolicy announced\nPolicy withdrawn\nsmall businesses, the impacts of external shocks on their ability to supply credit will have a disproportionately negative effect on these vulnerable segments of the population.\nFinancial fragilities in the postcrisis period could also arise from a tightening of the government–\nfinancial sector nexus (figure 1.7). Many governments have financed their COVID-19 response by issuing \nnew debt that is held by domestic financial institutions. As the government’s fiscal position worsens and"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 86,
+        "image_path": "data/advanced/pages/p086.png",
+        "observation": "- Đường đứt nét **“Policy announced”** nằm tại **2008**; **“Policy withdrawn”** tại **2013**.\n- Đường **Public banks** cho thấy tỷ lệ NPL khoảng **1,9** tại năm công bố (**2008**) và khoảng **9,3** vào **2016**. Đây là ước lượng từ biểu đồ; các điểm không được ghi nhãn số trực tiếp.\n- Trục tung là tỷ lệ NPL trên tổng dư nợ (ticks **0, 2, 4, 6, 8, 10**); trục hoành là các năm **2005–2016**."
+      }
+    ],
+    "inspected_pages": [
+      86
+    ],
+    "errors": [],
+    "latency_ms": 14715.33
+  },
+  {
+    "id": "adv_dev_mhp_02",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Figure 1.5 (trang 83) và Table 1.1 (trang 88), mức chênh lệch giữa thay đổi nợ công trung bình năm 2020 của nhóm High-income (13.63% GDP) so với nhóm Low-income (3.81% GDP) là bao nhiêu điểm phần trăm, và quốc gia nào ở Sub-Saharan Africa có dự báo nợ đọng chính phủ (arrears) hậu COVID-19 cao nhất trong Figure 1.5?",
+    "gold_pages": [
+      83,
+      88
+    ],
+    "gold_answer": "Chênh lệch là 9.82 điểm phần trăm (13.63% - 3.81%); trong Figure 1.5, Guinea (và Botswana) có dự báo arrears hậu COVID-19 cao nhất ở mức khoảng 9% GDP.",
+    "answer": "Mức chênh lệch là **9,82 điểm phần trăm** (13,63% − 3,81%). Quốc gia có dự báo nợ đọng chính phủ hậu COVID-19 cao nhất trong Figure 1.5 là **Guinea**, ở mức **9% GDP**.",
+    "citations": [
+      "wdr2022-p088-txt-03",
+      "wdr2022-p083-vis-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p088-txt-03",
+      "wdr2022-p083-vis-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure 1.5 public debt change 2020 High-income 13.63 Low-income 3.81 government arrears post-COVID Sub-Saharan Africa; Table 1.1",
+        "filters": null,
+        "results": [
+          {
+            "id": "wdr2022-p083-vis-00",
+            "page": 83,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032266,
+            "snippet": "[Visual description of page 83 (split page 71)]\n[Visual description of page 83 (split page 71)]\n[Visual description of page 83]\n### Figure 1.5: Government arrears in Sub-Saharan Africa\n- **Type**: Bar chart\n- **Axes**: \n  - Vertical Axis: Share of GDP (%)\n  - Horizontal Axis: Countries in Sub-Saharan Africa\n- **Units**: Percentage (%)\n- **Legend Categories**: \n  - Arrears prior to pandemic (blue)\n  - Arrears, post COVID-19 projection (red)\n\n**Key Numeric Data Points**:\n- Guinea: 9%\n- Benin: 8%\n- Eswatini: 7%\n- Liberia: 6%\n- Mali: 5%\n- Mozambique: 5%\n- Niger: 5%\n- South Sudan: 5%\n- Tanzania: 4%\n- Uganda: 4%\n- Ethiopia: 3%\n\n---\n\n### Figure 1.6: Financial sector policies during the COVID-19 crisis, by country income group\n- **Type**: Scatter plot\n- **Axes**: \n  - Vertical Axis: Percent (%)\n  - Horizontal Axis: Policy Types\n- **Units**: Perce"
+          },
+          {
+            "id": "wdr2022-p088-vis-00",
+            "page": 88,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032266,
+            "snippet": "[Visual description of page 88 (split page 76)]\n[Visual description of page 88 (split page 76)]\n[Visual description of page 88]\n### Table 1.1: Change in average central government debt stocks, by country income group, 2010–20\n\n**Type:** Table\n\n#### Axes and Units:\n- **Columns:** Income Groups (Low-income, Lower-middle-income, Upper-middle-income, High-income, All)\n- **Rows:** Categories of Debt (Total debt, Domestic debt, External debt)\n- **Units:** Share of GDP (%)\n\n#### Legend Categories:\n- **Total debt**\n- **Domestic debt**\n- **External debt**\n\n#### Key Numeric Data Points:\n- **Change in average total debt to GDP ratio:**\n  - **Average, 2010–19:**\n    - Low-income: 2.88%\n    - Lower-middle-income: 1.82%\n    - Upper-middle-income: 1.46%\n    - High-income: 1.20%\n    - All: 1.84%\n  - **2020:**\n    - Low-income: 3.81%\n    - Lower-middle-in"
+          },
+          {
+            "id": "wdr2022-p088-txt-03",
+            "page": 88,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032258,
+            "snippet": "before incomes and employment have fully rebounded. This effort to raise revenue could put further pressure on household and \nfirm balance sheets and threaten hard-won gains in poverty reduction. Historically, episodes of high \nTable 1.1 Change in average central government debt stocks, by country income group, \n2010–20\nShare of GDP (%)\nChange in average total \nLow- \nLower-middle- \nUpper-middle- \nHighdebt to GDP ratio \nincome \nincome \nincome \nincome \nAll\nTotal debt\nAverage, 2010–19 \n2.88 \n1.82 \n1.46 \n 1.20 \n1.84\n2020 \n3.81 \n6.69 \n5.55 \n13.63 \n7.42\nDomestic debt\nAverage, 2010–19 \n0.79 \n0.59 \n0.97 \n–0.30 \n0.51\n2020 \n0.86 \n3.04 \n1.80 \n9.24 \n3.73\nExternal debt\nAverage, 2010–19 \n2.09 \n1.23 \n0.49 \n1.41 \n1.30\n2020 \n3.03 \n3.66 \n3.74 \n4.54 \n3.74\nSource: Barrot 2021.\nNote: The table shows the changes in government total, domestic, and external debt"
+          },
+          {
+            "id": "wdr2022-p083-txt-01",
+            "page": 83,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "The\nCabo Verde\nMali\nSenegal\nBurundi\nRwanda\nUganda\nG\nSão Tomé and Príncipe\nabon\nCameroon\nTanzania\nCongo, Rep.\nEthiopia\nShare of GDP (%)\n0\n1\n2\n3\n4\n5\n6\n7\n8\n10\n9\nArrears, post COVID-19 projection\nArrears prior to pandemic\nFigure 1.6 Financial sector policies during the COVID-19 crisis, by country income group\nSource: World Bank, COVID-19 Crisis Response Survey, 2021, http://bit.do/WDR2022-Covid-19_survey.\nNote: The figure shows the percentage of countries in which each of the listed policies was implemented in response to \nthe pandemic. Data are as of June 30, 2021.\n40\n45\n55\n65\n75\n85\n95\n50\n60\n70\n80\n90\n100\nHigh-income\nUpper-middle-income\nLower-middle-income\nLow-income\nPercent \nDebt moratoria for households\nDebt moratoria for\nmicrofinance borrowers\nDebt moratoria for firms\nRegulatory forbearance"
+          },
+          {
+            "id": "wdr2022-p089-txt-00",
+            "page": 89,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.029469,
+            "snippet": "EMERGING RISKS TO THE RECOVERY | 67\nFigure 1.8 Change in average government revenue, by country income group, 2011–20\nSource: WDR 2022 team, based on data from IMF (2021b).\nNote: The figure shows the difference relative to the prior year in average revenue as a share of the gross domestic product \n(GDP) for each country group.\nShare of GDP (%)\n–2\n–3\n–1\n0\n1\n2\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\nHigh-income\nUpper-middle-income\nLower-middle-income\nLow-income\nFigure 1.9 Average primary government balances, by country income group, 2010–20\nSource: WDR 2022 team, based on data from IMF (2021b).\nNote: The figure shows the difference relative to the prior year in average primary balance (noninterest revenue minus noninterest expenditures) as a share of the gross domestic product (GDP) for each country group.\nShare of GDP (%)\n–2\n–3\n–"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 83,
+        "image_path": "data/advanced/pages/p083.png",
+        "observation": ""
+      }
+    ],
+    "inspected_pages": [
+      83
+    ],
+    "errors": [],
+    "latency_ms": 15260.9
+  },
+  {
+    "id": "adv_dev_mhp_03",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Table 2.2 (trang 116) và Figure 2.4 (trang 117), công cụ phân tích nào được Figure 2.4 sử dụng để lựa chọn giữa các biện pháp xử lý nợ xấu, và trong Table 2.2 biện pháp Short-term restructuring có tính chất trung hòa theo chỉ số đó không?",
+    "gold_pages": [
+      116,
+      117
+    ],
+    "gold_answer": "Công cụ phân tích là Net present value (NPV) analysis; trong Table 2.2, Short-term restructuring được thực hiện theo cách trung hòa giá trị hiện tại ròng (NPV-neutral manner).",
+    "answer": "Figure 2.4 sử dụng phân tích giá trị hiện tại ròng (net present value, NPV) để hỗ trợ lựa chọn biện pháp xử lý nợ xấu; sơ đồ lưu ý phân tích NPV cần dựa trên tỷ lệ thu hồi và chiết khấu thực tế, đồng thời tính mọi chi phí. Trong Table 2.2, Short-term restructuring được mô tả là thường trung hòa theo NPV (NPV-neutral), vì nghĩa vụ trả nợ được hoãn đến một thời điểm trong tương lai.",
+    "citations": [
+      "wdr2022-p117-txt-02",
+      "wdr2022-p116-tab-00"
+    ],
+    "raw_citations": [
+      "wdr2022-p117-txt-02",
+      "wdr2022-p116-tab-00"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table 2.2 page 116 Short-term restructuring neutral Figure 2.4 page 117 tool analytical framework choosing among nonperforming loan resolution measures",
+        "filters": null,
+        "results": [
+          {
+            "id": "wdr2022-p116-vis-00",
+            "page": 116,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032522,
+            "snippet": "[Visual description of page 116 (split page 104)]\n[Visual description of page 116 (split page 104)]\n[Visual description of page 116]\n### Table 2.2 Nonperforming loan (NPL) reduction measures\n\n**Type:** Table\n\n#### Columns:\n1. **Instrument**\n2. **Subcategory**\n3. **Typology**\n4. **Prerequisite**\n5. **Description**\n\n#### Data Points:\n\n1. **Loan Restructuring**\n   - **Subcategory:** Short-term restructuring\n   - **Typology:** Rescheduling\n   - **Prerequisite:** Borrower is experiencing short-term liquidity difficulties. Borrower is cooperative.\n   - **Description:** Deferment of borrower’s debt service obligations to a future date, usually in a net present value (NPV)–neutral manner.\n\n2. **Concessional Restructuring**\n   - **Subcategory:** Workout\n   - **Prerequisite:** Borrower is distressed, but viability can be restored with restructuring"
+          },
+          {
+            "id": "wdr2022-p116-tab-00",
+            "page": 116,
+            "type": "table",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031746,
+            "snippet": "[Table extracted from page 116 (split page 104)]\n| Instrument | Subcategory | Typology | Prerequisite | Description |\n| --- | --- | --- | --- | --- |\n| Loan restructuring | Short-term restructuring | Rescheduling | Borrowerisexperiencing short-termliquidity diffci ulties Borrowe ris . cooperative . | Defermentofborrower’s debtserviceobligationstoa futuredate usuallyinanet , presentvalue(NPV) –neutral manner . |\n|  | Concessional restructuring | Workout | Borrowerisdistressed but , viabilitycanberestoredwith restructuringthatentails debtrelief Borroweris . cooperative . | Loanrestructuringthat entailsaNPVreduction . |\n| Legalaction | Collateral enforcement | Collection | Debtorreceivesnoticeof defaultfrombank which , complieswiththeprescribed noticeperiods . | Enforcementofthe collateralorguarantee pledgedagainsttheloan bytakingin-courtoro"
+          },
+          {
+            "id": "wdr2022-p117-vis-00",
+            "page": 117,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031514,
+            "snippet": "[Visual description of page 117 (split page 105)]\n[Visual description of page 117 (split page 105)]\n[Visual description of page 117]\n### Visual Element Analysis\n\n1. **Title and Type**\n   - **Title:** Nonperforming loan reduction flowchart\n   - **Type:** Flowchart\n\n2. **Axes, Units, and Legend Categories**\n   - **Axes:** Not applicable for flowchart.\n   - **Units:** Not applicable for flowchart.\n   - **Legend Categories:**\n     - Borrower status: \n       - Viable/cooperative (indicated in green)\n       - Nonviable/uncooperative (indicated in red)\n     - Nonperforming loan reduction measures:\n       - Loan restructure\n       - Legal action\n       - Write-off\n       - Sale\n\n3. **Key Numeric Data Points and Flowchart Steps**\n   - **Flowchart Steps:**\n     - From \"Borrower status\":\n       - Viable/cooperative leads to:\n         - Loan restruct"
+          },
+          {
+            "id": "wdr2022-p116-txt-00",
+            "page": 116,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.029324,
+            "snippet": "94 | WORLD DEVELOPMENT REPORT 2022\nInstrument\nSubcategory\nTypology\nPrerequisite\nDescription\nLoan \nrestructuring\nShort-term \nrestructuring\nRescheduling\nBorrower is experiencing \nshort-term liquidity \ndifficulties. Borrower is \ncooperative.\nDeferment of borrower’s \ndebt service obligations to a \nfuture date, usually in a net \npresent value (NPV)–neutral \nmanner.\nConcessional \nrestructuring\nWorkout\nBorrower is distressed, but \nviability can be restored with \nrestructuring that entails \ndebt relief. Borrower is \ncooperative.\nLoan restructuring that \nentails a NPV reduction.\nLegal action\nCollateral \nenforcement\nCollection\nDebtor receives notice of \ndefault from bank, which \ncomplies with the prescribed \nnotice periods.\nEnforcement of the \ncollateral or guarantee \npledged against the loan \nby taking in-court or out-ofcourt action to repossess \n"
+          },
+          {
+            "id": "wdr2022-p117-txt-02",
+            "page": 117,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.016393,
+            "snippet": "g practices (such as long grace periods, bullet payments,57 or frequent rescheduling) \nthat exacerbate allocative inefficiencies by locking up the credit stock in highly indebted, underperforming economic sectors at the expense of more promising ones.58 Although unviable and uncooperative \nborrowers need to be dealt with resolutely, the depth of the recession puts a high premium on efforts \nFigure 2.4 Nonperforming loan reduction flowchart\nSource: WDR 2022 team.\nBorrower\nstatus\nNonperforming loan\n reduction measure\nLoan\nrestructure\nLegal\naction\nWrite-off\nSale\nViable/\ncooperative\nNonviable/\nuncooperative\nNPV analysis is\nbased on realistic\nrecovery and \ndiscount rates. \nAll costs are included. \nNet present value\n(NPV) analysis"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 117,
+        "image_path": "data/advanced/pages/p117.png",
+        "observation": ""
+      }
+    ],
+    "inspected_pages": [
+      117
+    ],
+    "errors": [],
+    "latency_ms": 13235.88
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 26 (Overview), Ngân hàng Trung ương Peru (Central Reserve Bank of Peru) đã sử dụng công cụ gì để bơm thanh khoản vào hệ thống ngân hàng và tác động đến lãi suất tín dụng mới ra sao?",
+    "gold_pages": [
+      26
+    ],
+    "gold_answer": "Sử dụng các hợp đồng mua lại được chính phủ bảo lãnh (government-backed repurchase / repo agreements), giúp giảm lãi suất cho các khoản tín dụng mới.",
+    "answer": "Ngân hàng Trung ương Peru đã bơm thanh khoản vào hệ thống ngân hàng thông qua các thỏa thuận mua lại (repo) được chính phủ bảo lãnh (government-backed repurchase agreements). Biện pháp này làm giảm lãi suất đối với các khoản tín dụng mới.",
+    "citations": [
+      "wdr2022-p026-txt-02"
+    ],
+    "raw_citations": [
+      "wdr2022-p026-txt-02"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "page 26 Overview Central Reserve Bank of Peru inject liquidity banking system instrument new lending rates",
+        "filters": {
+          "page": 26
+        },
+        "results": [
+          {
+            "id": "wdr2022-p026-txt-02",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.032787,
+            "snippet": "market, broadened access to \nrefinancing facilities, and reduced provisioning requirements. These measures enabled banks and other \ninstitutions to continue to offer financing to households and businesses. Like many other central banks, \nthe Central Reserve Bank of Peru, for example, injected liquidity into the banking system through \ngovernment-backed repurchase (repo) agreements, which reduced the interest rate on new credit. Central banks also made unprecedented use of unconventional monetary policy tools such as asset purchase \nprograms. Twenty-seven emerging economies adopted such programs for the first time in response to \nthe COVID-19 crisis.7 These measures were aimed at preventing a liquidity crisis and safeguarding financial stability. However, debt moratoria and the provision of additional liquidity for the financial sector \ndo"
+          },
+          {
+            "id": "wdr2022-p026-txt-03",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.031754,
+            "snippet": "ty for the financial sector \ndo not change the underlying economic conditions of borrowers. The risks now embedded in bank balance sheets will have to be addressed to ensure that the financial sector is well capitalized going into the \nrecovery phase and is able to fulfill its role of providing credit to finance consumption and investment.\nThe crisis response will also need to include policies that address the risks arising from high levels \nof sovereign debt to ensure that governments preserve their ability to effectively support the recovery. The support measures adopted to mitigate the immediate impact of the pandemic on households \nand businesses required new government spending at a time when many governments were already"
+          },
+          {
+            "id": "wdr2022-p026-txt-01",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.031746,
+            "snippet": "nments supported borrowers through direct \ncash transfers and financial policy tools, including debt moratoria and credit guarantees. As the crisis \nunfolded, these policies provided much-needed support to households and small businesses and helped \navert a wave of insolvencies and loan defaults, which could have threatened the stability of the financial \nsector. Looking ahead, ensuring that debt burdens for households and businesses are sustainable and \nthat there is continued access to credit is essential for an equitable recovery.\nSimilarly, governments, central banks, and regulators also used policy tools to assist financial institutions and prevent financial sector risks from spilling over to other parts of the economy. In many \ncountries, central banks lowered interest rates, injected liquidity into the market, broadened access to \n"
+          },
+          {
+            "id": "wdr2022-p026-vis-00",
+            "page": 26,
+            "type": "visual",
+            "section": "Overview",
+            "score": 0.031514,
+            "snippet": "[Visual description of page 26 (split page 14)]\n[Visual description of page 26 (split page 14)]\n**Figure 0.3 — “Conceptual framework: Vicious and virtuous cycles”**  \n**Type:** Two-panel conceptual diagram. No axes or units.\n\n- **a. Vicious cycle:** The circular cycle is divided among **Governments and central banks** (blue), the **Financial sector** (red), and **Households and firms** (yellow). The outcomes shown around it are: **Lower tax revenue**, **Bank instability**, **NPLs and corporate insolvencies**, **Unfavorable bond markets**, **Restricted access to credit**, and **Declining fiscal support**.\n- **b. Virtuous cycle:** Uses the same three color-coded groups. The corresponding outcomes are: **Higher tax revenue**, **Stable banks**, **Improved loan performance**, **Favorable bond markets**, **Improved credit supply**, and **Strong"
+          },
+          {
+            "id": "wdr2022-p026-txt-00",
+            "page": 26,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.03101,
+            "snippet": "4 | WORLD DEVELOPMENT REPORT 2022\nFigure O.3 Conceptual framework: Vicious and virtuous cycles\nSource: WDR 2022 team, based on Schnabel (2021).\nNote: NPLs = nonperforming loans.\nGovernments and central banks\nFinancial sector\nHouseholds and firms\nStronger\nfiscal support\nImproved\ncredit supply\nHigher tax revenue \nStable banks\nFavorable\nbond markets\nImproved loan\nperformance\nb. Virtuous cycle\nBank instability\nLower tax revenue\nNPLs and\ncorporate\ninsolvencies\nUnfavorable\nbond markets\nRestricted\naccess to\ncredit\nDeclining\nfiscal\nsupport\na. Vicious cycle\nOne example of policies that can make a critical difference are those targeting the link between the \nfinancial health of households, businesses, and the financial sector. In response to lockdowns and mobility restrictions necessary to contain the virus, many governments supported borrowers thr"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 5336.24
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo Box 1.2 (trang 85), tỷ lệ NPL của Ấn Độ trước khủng hoảng tài chính toàn cầu (2008) và đến năm 2018 đứng ở vị trí nào so với các quốc gia G20?",
+    "gold_pages": [
+      85
+    ],
+    "gold_answer": "Trước khủng hoảng, Ấn Độ có tỷ lệ NPL thấp nhất nhóm G20 (2%), nhưng đến năm 2018 lại có tỷ lệ NPL cao nhất nhóm G20 (11%).",
+    "answer": "Trước khủng hoảng tài chính toàn cầu, Ấn Độ có tỷ lệ NPL thấp nhất trong các quốc gia G20, ở mức 2%. Đến năm 2018, tỷ lệ này đã tăng lên 11% và cao nhất trong nhóm G20.",
+    "citations": [
+      "wdr2022-p085-txt-03",
+      "wdr2022-p085-txt-04"
+    ],
+    "raw_citations": [
+      "wdr2022-p085-txt-03",
+      "wdr2022-p085-txt-04"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Box 1.2 India NPL ratio before global financial crisis 2008 2018 G20 countries",
+        "filters": {
+          "page": 85
+        },
+        "results": [
+          {
+            "id": "wdr2022-p085-txt-03",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032787,
+            "snippet": "dian banking system. Stateowned banks, in particular, saw their stressed assets \npile up—a problem that became apparent once the \nregulation was withdrawn (see figure B1.2.1).b The \nmarked difference in the accumulation of stressed \nassets between private and state-owned banks \nindicates that the negative consequences of the \npolicy are not uniform and may be exacerbated by \npoor corporate governance.\nThe rise in nonperforming loans (NPLs) resulting \nfrom diminishment of the crisis had a large impact \non asset quality in the Indian financial sector. Prior \nto the global financial crisis, India had the lowest \nNPL ratio (2 percent) of all G20 nations. Between \n2008 and 2018, the share of nonperforming and \nrestructured loans in India’s banking system rose \ndramatically, and by 2018 India had the highest NPL \nratio (11 percent) among this g"
+          },
+          {
+            "id": "wdr2022-p085-txt-04",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032258,
+            "snippet": "atio (11 percent) among this group of countries.\nContrary to the intention of the policy, regulatory forbearance also encouraged banks to channel \ncredit to low-liquidity and low-solvency borrowers. \nAs a result, zombie firms emerged on a large scale \nin the Indian corporate sector. In 2016, approximately 40 percent of nonfinancial firms in India had \n(Box continues next page)\nTable B1.2.1 Provisioning requirements \nby loan category, India, 2008\nAsset \nNPL duration Provisioning\ncategory \n(months) \nrate (%)\nStandard \n — \n0.25–1 \nSubstandard \n<12 \n 10\nDoubtful \n12–24 \n 20"
+          },
+          {
+            "id": "wdr2022-p085-vis-00",
+            "page": 85,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031498,
+            "snippet": "[Visual description of page 85 (split page 73)]\n[Visual description of page 85 (split page 73)]\n[Visual description of page 85]\n### Visual Elements on Page 85 of World Development Report 2022\n\n#### 1. Table B1.2.1: Provisioning requirements by loan category, India, 2008\n- **Type**: Table\n- **Axes/Units**: \n  - **Asset category**: NPL duration (months)\n  - **Provisioning rate (%)**\n  \n- **Legend Categories**:\n  - **Standard**: NPL duration —, Provisioning rate 0.25–1%\n  - **Substandard**: NPL duration <12, Provisioning rate 10%\n  - **Doubtful**: \n    - NPL duration 12–24, Provisioning rate 20%\n    - NPL duration 25–48, Provisioning rate 30%\n    - NPL duration >48, Provisioning rate 100%\n  - **Loss**: Provisioning rate 100%\n\n- **Key Numeric Data Points**:\n  - Standard: 0.25–1%\n  - Substandard: <12 months → 10%\n  - Doubtful: \n    - 12–24 mon"
+          },
+          {
+            "id": "wdr2022-p085-txt-00",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031498,
+            "snippet": "EMERGING RISKS TO THE RECOVERY | 63\nBox 1.2 The unintended consequences of regulatory forbearance\nDuring the COVID-19 crisis, many countries experimented with regulatory forbearance policies that \nrelaxed capital requirements or accounting standards for banks in the hope they would provide borrowers with temporary relief.a Although it is too early \nto assess the impact of these regulatory forbearance \npolicies, past experiences can serve as a useful illustration of the longer-term risks such policies can \npose to financial stability and economic growth.\nOne especially instructive example is India, \nwhich lowered capital provisioning requirements in \nresponse to the 2007–09 global financial crisis. In \n2008, the Reserve Bank of India (RBI) announced it \nwould apply “special regulatory treatment” to loans \nunder temporary liquidity stress. "
+          },
+          {
+            "id": "wdr2022-p085-txt-05",
+            "page": 85,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03031,
+            "snippet": "25–48 \n 30\n\n>48 \n100\nLoss \n— \n100\nSource: Reserve Bank of India.\nNote: The table lists provisioning requirements on \nvarious categories of loans as defined by the Reserve \nBank of India. The provisioning requirements for standard assets depend on the industry sector of the loan, \nand thus the table indicates the range of provisioning \nrates across all industries. NPL = nonperforming loan."
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 4395.58
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 121, nhóm công tác quốc gia về nợ xấu (NPL working group) do Serbia thành lập vào tháng 5/2015 gồm những bộ ngành và tổ chức quốc tế nào?",
+    "gold_pages": [
+      121
+    ],
+    "gold_answer": "Thành viên nòng cốt gồm Bộ Kinh tế, Bộ Tài chính, Bộ Tư pháp và Ngân hàng Quốc gia Serbia; cùng Phòng Thương mại, Cơ quan Bảo hiểm Tiền gửi và các tổ chức quốc tế (World Bank, IMF, IFC, EBRD).",
+    "answer": "Các thành viên nòng cốt gồm đại diện Bộ Kinh tế, Bộ Tài chính, Bộ Tư pháp và Ngân hàng Quốc gia Serbia. Thành viên khác gồm đại diện Phòng Thương mại và Cơ quan Bảo hiểm Tiền gửi. Các tổ chức quốc tế được mời tham gia tích cực vào nhóm công tác và việc xây dựng chiến lược là World Bank, IMF, International Finance Corporation (IFC) và European Bank for Reconstruction and Development.",
+    "citations": [
+      "wdr2022-p121-txt-01"
+    ],
+    "raw_citations": [
+      "wdr2022-p121-txt-01"
+    ],
+    "abstained": false,
+    "stop_reason": "answered",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Serbia NPL working group established May 2015 ministries international organizations page 121",
+        "filters": {
+          "page": 121
+        },
+        "results": [
+          {
+            "id": "wdr2022-p121-txt-01",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032266,
+            "snippet": "nd Justice and \nthe National Bank of Serbia, and as members representatives of the Chamber of Commerce and the \nDeposit Insurance Agency. In addition, the World Bank, IMF, International Finance Corporation (IFC), \nand European Bank for Reconstruction and Development were invited to play an active role in the \nworking group and in the design of the strategy. The working group identified four strategic priorities: (1) improving bank capacity to deal with NPLs; (2) enabling conditions for development of the NPL \nmarket; (3) improving and promoting out-of-court restructuring; and (4) improving an in-court debt \nand mortgage resolution framework. Progress was reviewed and discussed on a quarterly basis. The \nstrategy contributed to a rapid decrease in the NPL ratio, which reached a historic low of 3.7 percent in \nDecember 2020 (figure 2.5).70 "
+          },
+          {
+            "id": "wdr2022-p121-txt-00",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032266,
+            "snippet": "RESOLVING BANK ASSET DISTRESS | 99\nhas shown that banks, left to their own devices, are slow to reduce elevated NPLs.69 Reducing high NPLs \nrequires the participation of a broad range of stakeholders to align policies: representatives of private \nsector entities (banks, institutional investors, and third-party service providers), national authorities \n(central banks and banking supervisory agencies, finance and justice ministries), civil society groups \n(consumer organizations), and occasionally international financial institutions.\nExperiences in several ECA countries after the global financial crisis confirmed the importance of \npolicy coordination. For example, Serbia established a national NPL working group in May 2015 that \nincluded as core members representatives of the Ministries of Economy, Finance, and Justice and \nthe National B"
+          },
+          {
+            "id": "wdr2022-p121-txt-03",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031754,
+            "snippet": "total loans, Serbia, 2010–20\nSource: WDR 2022 team, based on data from National Bank of Serbia, https://www.nbs.rs/export/sites/NBS_site \n/documents-eng/finansijska-stabilnost/pregled_grafikona_e.pdf.\n0\n10\n5\n15\n20\n25\n30\nPercent\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\nReforms implemented"
+          },
+          {
+            "id": "wdr2022-p121-vis-00",
+            "page": 121,
+            "type": "visual",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031754,
+            "snippet": "[Visual description of page 121 (split page 109)]\n[Visual description of page 121 (split page 109)]\n[Visual description of page 121]\nHere’s the information extracted from the visual element on page 121 of the World Development Report 2022:\n\n1. **Title and Type**: \n   - **Title**: Ratio of nonperforming loans to total loans, Serbia, 2010–20\n   - **Type**: Line chart\n\n2. **Axes, Units, and Legend Categories**:\n   - **X-axis**: Years (2010 to 2020)\n   - **Y-axis**: Percentage (%)\n   - **Legend Categories**: \n     - Solid line representing the ratio of nonperforming loans to total loans\n     - Dashed vertical lines indicating the years when reforms were implemented\n\n3. **Key Numeric Data Points and Trends**:\n   - The ratio of nonperforming loans starts at approximately 20% in 2010.\n   - It fluctuates slightly but generally trends downward, re"
+          },
+          {
+            "id": "wdr2022-p121-txt-02",
+            "page": 121,
+            "type": "text",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.030769,
+            "snippet": "December 2020 (figure 2.5).70 \nPublic asset management companies \nIn addition to establishing systemwide policies, some regions and countries, including the European \nUnion and Ukraine, have considered establishing public asset management companies (AMCs) to complement bank NPL reduction efforts.71 Public AMCs allow removal of NPLs from the financial system, \nwhile still maximizing the recovery value of these assets.72 Indonesia, the Republic of Korea, Malaysia, \nand Thailand, among other countries, used public AMCs in the Asian financial crisis in the late 1990s to \nclean bank balance sheets and to restructure distressed banks. 73 Advanced economies such as Ireland, \nSlovenia, and Spain also used public AMCs in the aftermath of the global financial crisis. And more \nFigure 2.5 Ratio of nonperforming loans to total loans, Serbia, 2010–20\n"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 6112.68
+  },
+  {
+    "id": "adv_dev_una_01",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo tài liệu WDR 2022, dự báo tỷ lệ nợ công trên GDP của Việt Nam vào năm 2025 là bao nhiêu phần trăm?",
+    "gold_pages": [],
+    "gold_answer": "ABSTAIN",
+    "answer": "Không tìm thấy trong WDR 2022 dự báo tỷ lệ nợ công trên GDP của Việt Nam vào năm 2025. Tài liệu được tìm thấy có số liệu về nợ công theo nhóm thu nhập và dự báo tổng quát cho năm 2021, nhưng không nêu con số dự báo riêng cho Việt Nam năm 2025.",
+    "citations": [],
+    "raw_citations": [],
+    "abstained": true,
+    "stop_reason": "abstained",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Vietnam public debt to GDP forecast 2025 debt ratio",
+        "filters": null,
+        "results": [
+          {
+            "id": "wdr2022-p088-txt-03",
+            "page": 88,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032266,
+            "snippet": "before incomes and employment have fully rebounded. This effort to raise revenue could put further pressure on household and \nfirm balance sheets and threaten hard-won gains in poverty reduction. Historically, episodes of high \nTable 1.1 Change in average central government debt stocks, by country income group, \n2010–20\nShare of GDP (%)\nChange in average total \nLow- \nLower-middle- \nUpper-middle- \nHighdebt to GDP ratio \nincome \nincome \nincome \nincome \nAll\nTotal debt\nAverage, 2010–19 \n2.88 \n1.82 \n1.46 \n 1.20 \n1.84\n2020 \n3.81 \n6.69 \n5.55 \n13.63 \n7.42\nDomestic debt\nAverage, 2010–19 \n0.79 \n0.59 \n0.97 \n–0.30 \n0.51\n2020 \n0.86 \n3.04 \n1.80 \n9.24 \n3.73\nExternal debt\nAverage, 2010–19 \n2.09 \n1.23 \n0.49 \n1.41 \n1.30\n2020 \n3.03 \n3.66 \n3.74 \n4.54 \n3.74\nSource: Barrot 2021.\nNote: The table shows the changes in government total, domestic, and external debt"
+          },
+          {
+            "id": "wdr2022-p087-txt-02",
+            "page": 87,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031545,
+            "snippet": "the crisis response, while, relative to the previous decade, lower-middle-income \nFigure 1.7 Government debt and banking sector fragility during the COVID-19 crisis, by country \nincome group\nSource: WDR 2022 team, based on Feyen and Mare (2021); World Bank Macro-Fiscal Model Data Base, see Burns and \nJooste (2019); Burns et al. (2019). \nNote: The consolidated distance to break point is the percentage point increase in the nonperforming loan ratio that wipes \nout capital buffers for banks representing at least 20 percent of banking system assets (see Feyen and Mare 2021). GDP = \ngross domestic product.\n10\n0\n–10\n20\n30\n40\n0\n50\n25\n75\n100\n125\n175\n150\n200\nUpper-middle-income\nLower-middle-income\nLow-income\nGeneral government gross debt, 2021 forecast (% of GDP)\nConsolidated distance to break point\n(percentage points)"
+          },
+          {
+            "id": "wdr2022-p088-vis-00",
+            "page": 88,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03031,
+            "snippet": "[Visual description of page 88 (split page 76)]\n[Visual description of page 88 (split page 76)]\n[Visual description of page 88]\n### Table 1.1: Change in average central government debt stocks, by country income group, 2010–20\n\n**Type:** Table\n\n#### Axes and Units:\n- **Columns:** Income Groups (Low-income, Lower-middle-income, Upper-middle-income, High-income, All)\n- **Rows:** Categories of Debt (Total debt, Domestic debt, External debt)\n- **Units:** Share of GDP (%)\n\n#### Legend Categories:\n- **Total debt**\n- **Domestic debt**\n- **External debt**\n\n#### Key Numeric Data Points:\n- **Change in average total debt to GDP ratio:**\n  - **Average, 2010–19:**\n    - Low-income: 2.88%\n    - Lower-middle-income: 1.82%\n    - Upper-middle-income: 1.46%\n    - High-income: 1.20%\n    - All: 1.84%\n  - **2020:**\n    - Low-income: 3.81%\n    - Lower-middle-in"
+          },
+          {
+            "id": "wdr2022-p038-txt-02",
+            "page": 38,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.02971,
+            "snippet": ": Managing higher levels of sovereign debt\nThe pandemic has led to a dramatic increase in sovereign debt. As shown in figure O.9, the average total \ndebt burdens among low- and middle-income countries increased by roughly 9 percentage points of \nGDP during the first year of the pandemic, 2019–20, compared with an average increase of 1.9 percentage points over the previous decade. Although interest payments in high-income economies have been \ntrending lower in recent years and account, on average, for a little over 1 percentage point of GDP, they \nhave been climbing steadily in low- and middle-income economies.40\nDebt distress—that is, when a country is not able to fulfill its financial obligations—poses significant \nsocial costs. One study finds that every year that a country remains in default reduces GDP growth by \n1.0–1.5 percentage po"
+          },
+          {
+            "id": "wdr2022-p038-txt-03",
+            "page": 38,
+            "type": "text",
+            "section": "Overview",
+            "score": 0.028814,
+            "snippet": "owth by \n1.0–1.5 percentage points.41 During the pandemic, governments accumulated debt to finance current \nexpenditures, but it came at the cost of limiting their ability to spend in the future, including on public \ngoods such as education and public health. Underinvestment in these services can worsen inequality \nand human development outcomes.42 High debt and lack of spending flexibility also limit the capacity of \ngovernments to cope with future shocks.43 Moreover, because governments are often the lender of last \nresort, private sector debts can quickly become public debt if financial and economic stability is threatened in an economic crisis and public assistance is required. Protecting the ability of the government to \ninvest in public goods, to act in a countercyclical manner, and to enable the central bank to deliver on its \nuniq"
+          }
+        ]
+      }
+    ],
+    "inspected_pages": [],
+    "errors": [],
+    "latency_ms": 4942.05
+  },
+  {
+    "id": "adv_dev_una_02",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Table 2.1, tỷ lệ các quốc gia thu nhập cao (High-income) cho phép nâng hạng nợ ngay sau khi tái cơ cấu là bao nhiêu phần trăm?",
+    "gold_pages": [
+      107
+    ],
+    "gold_answer": "ABSTAIN",
+    "answer": "Table 2.1 không nêu tỷ lệ cho nhóm High-income: nhóm này bị loại trừ khỏi bảng. Vì vậy, báo cáo không cung cấp phần trăm được hỏi.",
+    "citations": [],
+    "raw_citations": [],
+    "abstained": true,
+    "stop_reason": "abstained",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Table 2.1 high-income countries allow debt upgrade immediately after restructuring percentage",
+        "filters": {
+          "chunk_type": "table"
+        },
+        "results": [
+          {
+            "id": "wdr2022-p088-tab-00",
+            "page": 88,
+            "type": "table",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032787,
+            "snippet": "[Table extracted from page 88 (split page 76)]\n| Changeinaveragetotal debttoGDPratio | Low- income | Lower-middle- income | Upper-middle- income | High - income | All |\n| --- | --- | --- | --- | --- | --- |\n| Totaldebt Average 2010 –19 , | 288 . | 182 . | 146 . | 120 . | 184 . |\n| 2020 | 381 . | 669 . | 555 . | 1363 . | 742 . |\n| Domesticdebt Average 2010 –19 , | 079 . | 059 . | 097 . | 030 – . | 051 . |\n| 2020 | 086 . | 304 . | 180 . | 924 . | 373 . |\n| Externaldebt Average 2010 –19 , | 209 . | 123 . | 049 . | 141 . | 130 . |\n| 2020 | 303 . | 366 . | 374 . | 454 . | 374 . |"
+          },
+          {
+            "id": "wdr2022-p107-tab-00",
+            "page": 107,
+            "type": "table",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.032258,
+            "snippet": "[Table extracted from page 107 (split page 95)]\n| Indicator | Low-income | Lower-middle- income | Upper-middle- income |\n| --- | --- | --- | --- |\n| i Assetclassifcationsystemunderwhich bankshavetoreportthequalityoftheir loansandadvancesusingacommon regulatoryscale | 88 | 88 | 95 |\n| Availabilityofcollateralallowsbanksto avoidclassifyingaloanasnonperforming | 6 | 9 | 18 |\n| Banksallowedtoupgradethe i classifcationofaloanoradvance immediatelyafterithasbeenrestructured | 13 | 18 | 21 |"
+          },
+          {
+            "id": "wdr2022-p116-tab-00",
+            "page": 116,
+            "type": "table",
+            "section": "Chapter 2: Resolving bank asset distress & Spotlight 2.1",
+            "score": 0.031746,
+            "snippet": "[Table extracted from page 116 (split page 104)]\n| Instrument | Subcategory | Typology | Prerequisite | Description |\n| --- | --- | --- | --- | --- |\n| Loan restructuring | Short-term restructuring | Rescheduling | Borrowerisexperiencing short-termliquidity diffci ulties Borrowe ris . cooperative . | Defermentofborrower’s debtserviceobligationstoa futuredate usuallyinanet , presentvalue(NPV) –neutral manner . |\n|  | Concessional restructuring | Workout | Borrowerisdistressed but , viabilitycanberestoredwith restructuringthatentails debtrelief Borroweris . cooperative . | Loanrestructuringthat entailsaNPVreduction . |\n| Legalaction | Collateral enforcement | Collection | Debtorreceivesnoticeof defaultfrombank which , complieswiththeprescribed noticeperiods . | Enforcementofthe collateralorguarantee pledgedagainsttheloan bytakingin-courtoro"
+          },
+          {
+            "id": "wdr2022-p085-tab-00",
+            "page": 85,
+            "type": "table",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03125,
+            "snippet": "[Table extracted from page 85 (split page 73)]\n| Asset category | NPLduration (months) | Provisioning rate(%) |\n| --- | --- | --- |\n| Standard | — | 025 1 . – |\n| Substandard | <12 | 10 |\n| Doubtful | 12 24 – 25 48 – >48 | 20 30 100 |\n| Loss | — | 100 |"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 107,
+        "image_path": "data/advanced/pages/p107.png",
+        "observation": "**NOT FOUND ON THIS PAGE.** Table 2.1 does not include a High-income column; its note says high-income countries are excluded. For the row “Banks allowed to upgrade the classification of a loan or advance immediately after it has been restructured,” the displayed percentages are **13%** (Low-income), **18%** (Lower-middle-income), and **21%** (Upper-middle-income)."
+      }
+    ],
+    "inspected_pages": [
+      107
+    ],
+    "errors": [],
+    "latency_ms": 10014.74
+  },
+  {
+    "id": "adv_dev_una_03",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Trong Figure B1.2.1 (trang 86), tỷ lệ nợ xấu (NPL) của các ngân hàng nước ngoài tại Trung Quốc năm 2015 là bao nhiêu?",
+    "gold_pages": [
+      86
+    ],
+    "gold_answer": "ABSTAIN",
+    "answer": "Không thể xác định tỷ lệ này từ Figure B1.2.1: hình ở trang 86 trình bày tỷ lệ NPL của các ngân hàng công và tư tại Ấn Độ giai đoạn 2005–16, không phải của ngân hàng nước ngoài tại Trung Quốc.",
+    "citations": [],
+    "raw_citations": [],
+    "abstained": true,
+    "stop_reason": "abstained",
+    "steps": [
+      {
+        "tool": "search",
+        "query": "Figure B1.2.1 China foreign banks nonperforming loan NPL ratio 2015",
+        "filters": {
+          "page": 86
+        },
+        "results": [
+          {
+            "id": "wdr2022-p086-vis-00",
+            "page": 86,
+            "type": "visual",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "[Visual description of page 86 (split page 74)]\n[Visual description of page 86 (split page 74)]\n[Visual description of page 86]\n### Visual Element Analysis\n\n#### Title and Type\n1. **Title:** Figure B1.2.1 Nonperforming loans in India, 2005–16  \n   **Type:** Line Chart\n\n#### Axes, Units, and Legend Categories\n- **X-Axis:** Years (2005 to 2016)\n- **Y-Axis:** Ratio of NPLs (Nonperforming Loans) to Total Advances\n- **Units:** Ratio (no specific unit, expressed as a percentage)\n- **Legend Categories:**\n  - **Public banks:** Represented by a dark blue line\n  - **Private banks:** Represented by a light blue line\n\n#### Key Numeric Data Points and Trends\n- **2005:** Public banks ~ 4.5, Private banks ~ 2.0\n- **2006:** Public banks ~ 4.0, Private banks ~ 1.8\n- **2007:** Public banks ~ 3.5, Private banks ~ 1.5\n- **2008:** Public banks ~ 8.0, Private "
+          },
+          {
+            "id": "wdr2022-p086-txt-02",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.032522,
+            "snippet": "effects on access to \ncredit, industry structure, and financial stability even \nafter a policy is withdrawn. As economies recover, \nactive and costly intervention may be needed to \naddress some of these longer-term legacies, such as \nzombie lending and the undercapitalization of banks.\na. Acharya, Engle, and Steffen (2021). \nb. Chari, Jain and Kulkarni (2021).\nSource: Chari, Jain, and Kulkarni 2021.\nNote: The figure shows the ratio of nonperforming loans (NPLs) to total advances for state-owned banks and private \nbanks in India between 2005 and 2016. Dashed lines mark the announcement and withdrawal of the regulatory forbearance policy.\nFigure B1.2.1 Nonperforming loans in India, 2005–16\n0\n2\n4\n6\n8\n10\nRatio of NPLs to total advances\n2005\n2006\n2008\n2010\n2012\n2014\n2016\n2007\n2009\n2011\n2013\n2015\nPublic banks \nPrivate banks\nPolicy announced\nPol"
+          },
+          {
+            "id": "wdr2022-p086-txt-00",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.031746,
+            "snippet": "64 | WORLD DEVELOPMENT REPORT 2022\nBox 1.2 The unintended consequences of regulatory forbearance (continued)\nan interest coverage ratio (the ratio of revenue to \ninterest payments) of less than 2, and 21 percent \nof firms had an interest coverage ratio of less than \n1, meaning that they were unable to cover their \ndebt payments with current revenue. The average \ninterest coverage ratio of Indian firms fell by nearly \nhalf, from 6.92 in 2007 to 3.38 by 2015. At the same \ntime, overall debt levels remained unchanged, suggesting that the debt service capacity of the Indian \ncorporate sector had sharply declined. This increase \nin zombie lending also made it more difficult for \nhealthy firms to obtain loans from banks, with obvious negative implications for economic growth.\nMeanwhile, regulatory forbearance functioned \nas an implicit subsidy "
+          },
+          {
+            "id": "wdr2022-p086-txt-01",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "ioned \nas an implicit subsidy for the financial sector that \nallowed the government to delay costly bank \nrecapitalization. Recognizing loan losses in a timely \nfashion would have undoubtedly weakened bank \nbalance sheets and necessitated large bank recapitalizations. Because state-owned banks account \nfor approximately 70 percent of the Indian banking \nsector, recognition would have entailed significant \ncosts for the government relative to budget-neutral \nforbearance schemes. \nIn light of the many regulatory forbearance policies enacted in the wake of the COVID-19 crisis, \nIndia’s experiment with regulatory forbearance in a \npast crisis serves as a cautionary tale. It may be challenging to unwind improperly designed temporary \nforbearance measures, and many of these policies \nwill have long-lasting negative effects on access to \ncredit,"
+          },
+          {
+            "id": "wdr2022-p086-txt-03",
+            "page": 86,
+            "type": "text",
+            "section": "Chapter 1: Emerging risks to the recovery",
+            "score": 0.03101,
+            "snippet": "vate banks\nPolicy announced\nPolicy withdrawn\nsmall businesses, the impacts of external shocks on their ability to supply credit will have a disproportionately negative effect on these vulnerable segments of the population.\nFinancial fragilities in the postcrisis period could also arise from a tightening of the government–\nfinancial sector nexus (figure 1.7). Many governments have financed their COVID-19 response by issuing \nnew debt that is held by domestic financial institutions. As the government’s fiscal position worsens and"
+          }
+        ]
+      },
+      {
+        "tool": "inspect_page",
+        "page": 86,
+        "image_path": "data/advanced/pages/p086.png",
+        "observation": ""
+      }
+    ],
+    "inspected_pages": [
+      86
+    ],
+    "errors": [],
+    "latency_ms": 13220.83
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Trong AI RMF 1.0, một hệ thống AI (AI system) được định nghĩa như thế nào?",
+    "expected_answer": "Một hệ thống được thiết kế hoặc dựa trên máy móc có thể tạo ra các đầu ra như dự đoán, khuyến nghị hoặc quyết định ảnh hưởng đến môi trường thực hoặc ảo dựa trên một tập mục tiêu nhất định.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 6,
+        "evidence": "The AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Khái niệm sustainability (tính bền vững) được trích dẫn theo ISO/IEC TR 24368:2022 trong Executive Summary có nghĩa là gì?",
+    "expected_answer": "Trạng thái của hệ thống toàn cầu (bao gồm khía cạnh môi trường, xã hội và kinh tế) trong đó nhu cầu hiện tại được đáp ứng mà không làm tổn hại khả năng đáp ứng nhu cầu của các thế hệ tương lai.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 7,
+        "evidence": "Sustainability refers to the “state of the global system, including environmental, social, and economic aspects, in which the needs of the present are met without compromising the ability of future generations to meet their own needs” ( ISO /IEC TR 24368:2022)."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong ngữ cảnh của AI RMF, thuật ngữ risk (rủi ro) được định nghĩa dựa trên hai yếu tố nào?",
+    "expected_answer": "Rủi ro là thước đo tổng hợp của xác suất xảy ra một sự kiện và mức độ hoặc quy mô hậu quả của sự kiện tương ứng đó.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 9,
+        "evidence": "In the context of the AI RMF,risk refers to the composite measure of an event’s probability of occurring and the magnitude or degree of the consequences of the corresponding event."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Nếu không thể đo lường được rủi ro AI một cách phù hợp thì có thể kết luận hệ thống AI đó có rủi ro cao hoặc rủi ro thấp hay không?",
+    "expected_answer": "Không. Việc không thể đo lường rủi ro AI một cách phù hợp không hàm ý rằng hệ thống AI đó nhất thiết mang rủi ro cao hay rủi ro thấp.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 10,
+        "evidence": "The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Những cạm bẫy hoặc hạn chế nào có thể xảy ra khi tổ chức cố gắng xây dựng các thước đo rủi ro và tác động tiêu cực của AI?",
+    "expected_answer": "Các phương pháp đo lường có thể bị đơn giản hóa quá mức, bị thao túng (gamed), thiếu sắc thái quan trọng, bị dựa dẫm theo những cách ngoài dự kiến hoặc không tính đến sự khác biệt giữa các nhóm bị ảnh hưởng và ngữ cảnh.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 11,
+        "evidence": "measurement approaches can be oversimplified, gamed, lack critical nuance, become relied upon in unexpected ways, or fail to account for differences in affected groups and contexts."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Risk tolerance (khả năng chấp nhận rủi ro) là gì và AI RMF có quy định sẵn mức risk tolerance không?",
+    "expected_answer": "Risk tolerance là mức độ sẵn sàng của tổ chức hoặc AI actor trong việc gánh chịu rủi ro để đạt được mục tiêu; AI RMF không quy định sẵn mức risk tolerance.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 12,
+        "evidence": "While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Khi một hệ thống AI có mức độ rủi ro tiêu cực không thể chấp nhận được (chẳng hạn tác động tiêu cực sắp xảy ra hoặc rủi ro thảm khốc), việc phát triển và triển khai cần được xử lý như thế nào?",
+    "expected_answer": "Việc phát triển và triển khai phải được dừng lại một cách an toàn (cease in a safe manner) cho đến khi các rủi ro được quản lý đầy đủ.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 13,
+        "evidence": "In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficiently managed."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "AI RMF liệt kê bảy đặc tính nào của một hệ thống AI đáng tin cậy (trustworthy AI)?",
+    "expected_answer": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, và fair with harmful bias managed.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 17,
+        "evidence": "Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong Part 1 (Foundational Information), độ chính xác (accuracy) được ISO/IEC TS 5723:2022 định nghĩa là gì và phép đo độ chính xác luôn phải đi kèm với điều kiện nào?",
+    "expected_answer": "Accuracy là mức độ gần của kết quả quan sát, tính toán hoặc ước lượng so với giá trị thực hoặc giá trị được chấp nhận là đúng; phép đo độ chính xác phải luôn đi kèm với tập kiểm thử thực tế, được xác định rõ ràng và đại diện cho điều kiện sử dụng kỳ vọng.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 19,
+        "evidence": "Accuracy is defined by ISO /IEC TS 5723:2022 as “closeness of results of observations, computations, or estimates to the true values or the values accepted as being true.”"
+      }
+    ],
+    "filter": {
+      "section": "part_1_foundational"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Một hệ thống AI có tính minh bạch (transparent) có mặc nhiên đồng nghĩa với việc hệ thống đó chính xác, bảo vệ quyền riêng tư, an toàn bảo mật hoặc công bằng không?",
+    "expected_answer": "Không. Một hệ thống minh bạch không nhất thiết là hệ thống chính xác, tăng cường quyền riêng tư, bảo mật hay công bằng.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 21,
+        "evidence": "A transparent system is not necessarily an accurate, privacy-enhanced, secure, or fair system."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Ba đặc tính transparency, explainability và interpretability hỗ trợ nhau và trả lời cho các câu hỏi nào về quyết định của hệ thống AI?",
+    "expected_answer": "Transparency trả lời cho câu hỏi chuyện gì đã xảy ra (what happened), explainability trả lời cách thức quyết định được đưa ra (how), và interpretability trả lời lý do tại sao quyết định được đưa ra (why) cùng ý nghĩa của nó.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 22,
+        "evidence": "Transparency can answer the question of “what happened” in the system. Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong Part 2 (Core and Profiles), AI RMF Core gồm bốn chức năng cấp cao nào và các hành động bên trong có phải một checklist theo thứ tự bắt buộc không?",
+    "expected_answer": "Bốn chức năng là GOVERN, MAP, MEASURE và MANAGE. Các hành động không phải là một danh sách kiểm tra (checklist) và cũng không nhất thiết là một chuỗi các bước theo thứ tự.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 25,
+        "evidence": "the Core is composed of four functions: GOVERN , MAP, MEASURE , and MANAGE . Each of these high-level functions is broken down into categories and subcategories. Categories and subcategories are subdivided into specific actions and outcomes. Actions do not constitute a checklist, nor are they necessarily an ordered set of steps."
+      }
+    ],
+    "filter": {
+      "section": "part_2_core_profiles"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "NIST AI RMF Playbook đóng vai trò gì và tổ chức có bắt buộc phải tuân theo toàn bộ gợi ý trong Playbook không?",
+    "expected_answer": "Playbook là tài liệu đồng hành trực tuyến cung cấp các hành động chiến thuật gợi ý để đạt kết quả của AI RMF; giống như AI RMF, Playbook hoàn toàn tự nguyện (voluntary) và tổ chức có thể chọn lọc theo nhu cầu.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 26,
+        "evidence": "Like the AI RMF, the Playbook is voluntary and organizations can utilize the suggestions according to their needs and interests."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Chức năng MEASURE sử dụng tri thức từ chức năng nào và cung cấp thông tin đầu vào cho chức năng nào trong AI RMF Core?",
+    "expected_answer": "MEASURE sử dụng tri thức liên quan đến rủi ro AI được xác định trong chức năng MAP và cung cấp thông tin đầu vào cho chức năng MANAGE.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 33,
+        "evidence": "It uses knowledge relevant to AI risks identified in the MAP function and informs the MANAGE function."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Trong phần Phụ lục (Appendix A), các tác vụ AI Design được thực hiện ở những giai đoạn nào của vòng đời AI và ai thuộc nhóm AI actors này?",
+    "expected_answer": "Các tác vụ AI Design được thực hiện trong giai đoạn Application Context và Data and Input của vòng đời AI; nhóm AI actors gồm data scientists, domain experts, socio-cultural analysts, experts in diversity, equity, inclusion, and accessibility, members of impacted communities, và human factors experts.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 40,
+        "evidence": "AI Design tasks are performed during the Application Context and Data and Input phases of the AI lifecycle in Figure 2."
+      }
+    ],
+    "filter": {
+      "section": "appendix"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Tiểu mục GOVERN 4.3 yêu cầu tổ chức thiết lập các thông lệ nào để xử lý kiểm thử và sự cố AI?",
+    "expected_answer": "Các thông lệ tổ chức được thiết lập để tạo điều kiện cho việc kiểm thử AI (AI testing), nhận diện sự cố (identification of incidents) và chia sẻ thông tin (information sharing).",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 29,
+        "evidence": "GOVERN 4.3: Organizational practices are in place to enable AI testing, identification of incidents, and information sharing."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Theo tiểu mục MEASURE 3.3, quy trình phản hồi dành cho người dùng cuối và cộng đồng bị ảnh hưởng cần phục vụ mục đích gì?",
+    "expected_answer": "Để báo cáo vấn đề (report problems) và khiếu nại kết quả hệ thống (appeal system outcomes), đồng thời được tích hợp vào các thước đo đánh giá hệ thống AI.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 36,
+        "evidence": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Kế hoạch giám sát hệ thống AI sau triển khai theo tiểu mục MANAGE 4.1 phải bao gồm những cơ chế nào?",
+    "expected_answer": "Cơ chế thu thập và đánh giá ý kiến từ người dùng và các AI actors liên quan, khiếu nại và ghi đè (appeal and override), ngừng vận hành (decommissioning), ứng phó sự cố (incident response), phục hồi (recovery) và quản lý thay đổi (change management).",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 38,
+        "evidence": "MANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Trong phần Phụ lục (Appendix B), những tính năng nào của hệ thống AI vừa tiềm ẩn rủi ro nhưng đồng thời cũng mang lại lợi ích giúp nâng cao độ chính xác và khả năng phục hồi?",
+    "expected_answer": "Các mô hình tiền huấn luyện (pre-trained models) và học chuyển giao (transfer learning) có thể thúc đẩy nghiên cứu, tăng độ chính xác và khả năng phục hồi so với các mô hình và cách tiếp cận khác.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 43,
+        "evidence": "For example, pre-trained models and transfer learning can advance research and increase accuracy and resilience when compared to other models and approaches."
+      }
+    ],
+    "filter": {
+      "section": "appendix"
+    },
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Theo Appendix C về tương tác người-AI, hạn chế cốt lõi khi biểu diễn các hiện tượng phức tạp của con người bằng mô hình toán học là gì?",
+    "expected_answer": "Việc biểu diễn các hiện tượng phức tạp của con người bằng mô hình toán học có thể phải đánh đổi bằng việc làm mất đi ngữ cảnh cần thiết (removing necessary context), gây khó khăn cho việc hiểu tác động cá nhân và xã hội.",
+    "gold": [
+      {
+        "source_id": "nist-ai-rmf-1.0",
+        "page": 45,
+        "evidence": "Representing complex human phenomena with mathematical models can come at the cost of removing necessary context."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Theo NIST AI RMF 1.0, mức phạt tiền hành chính tối đa (tính bằng USD) đối với tổ chức thương mại tại Hoa Kỳ không tuân thủ chức năng GOVERN 1.1 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã kiểm tra toàn bộ 42 trang nội dung NIST AI RMF 1.0: đây là khung hướng dẫn tự nguyện (voluntary framework), hoàn toàn không quy định chế tài xử phạt hay mức phạt tiền USD."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Trong NIST AI RMF 1.0, lệ phí đăng ký kiểm toán định kỳ và cấp chứng chỉ tuân thủ AI RMF chính thức do NIST thu hàng năm là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã kiểm tra toàn bộ tài liệu NIST AI RMF 1.0: NIST không vận hành chương trình cấp chứng chỉ tuân thủ có thu phí và không nêu bất kỳ biểu phí kiểm toán nào."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "Theo chức năng MEASURE trong NIST AI RMF 1.0, ngưỡng số lượng tham số (parameters) hoặc số phép tính huấn luyện (FLOPs) tối thiểu để một mô hình AI bị xếp vào nhóm rủi ro nghiêm trọng là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã kiểm tra toàn bộ phần MEASURE và 42 trang nội dung: NIST AI RMF 1.0 không hề đặt ngưỡng định lượng về số lượng tham số (parameters) hay FLOPs huấn luyện."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Theo Phụ lục A (Appendix A) của NIST AI RMF 1.0, thời hạn bắt buộc (số ngày tối đa) để nhà phát triển AI phải báo cáo sự cố nghiêm trọng lên Quốc hội Hoa Kỳ là bao nhiêu ngày?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã kiểm tra toàn bộ Appendix A (trang vật lý 40-42) và toàn văn tài liệu: không có quy định nào về thời hạn số ngày bắt buộc báo cáo sự cố lên Quốc hội."
+  }
+]

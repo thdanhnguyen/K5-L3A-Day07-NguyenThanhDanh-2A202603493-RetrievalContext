@@ -1,0 +1,14 @@
+{
+  "split": "dev",
+  "count": 18,
+  "avg_latency_ms": 9653.26,
+  "p95_latency_ms": 20049.16,
+  "total_tool_calls": 30,
+  "total_errors": 0,
+  "cost_usd": {
+    "embedding": 8e-06,
+    "vision_inspect": 0.006641,
+    "controller_llm": 0.013131,
+    "total": 0.01978
+  }
+}

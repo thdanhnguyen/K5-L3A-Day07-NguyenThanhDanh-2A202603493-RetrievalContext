@@ -1,0 +1,237 @@
+[
+  {
+    "query_id": "adv_test_tab_01",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p085-tab-00', 'page:85']"
+  },
+  {
+    "query_id": "adv_test_tab_02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p085-tab-00']"
+  },
+  {
+    "query_id": "adv_test_tab_03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p088-txt-03', 'wdr2022-p088-tab-00']"
+  },
+  {
+    "query_id": "adv_test_tab_04",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p088-txt-03', 'wdr2022-p088-vis-00']"
+  },
+  {
+    "query_id": "adv_test_tab_05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['page:107']"
+  },
+  {
+    "query_id": "adv_test_tab_06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (table), noi dung/so lieu khop gold va co trich dan hop le ['page:116']"
+  },
+  {
+    "query_id": "adv_test_dia_01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (diagram), noi dung/so lieu khop gold va co trich dan hop le ['page:25']"
+  },
+  {
+    "query_id": "adv_test_dia_02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (diagram), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p026-txt-00', 'page:26']"
+  },
+  {
+    "query_id": "adv_test_dia_03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (diagram), noi dung/so lieu khop gold va co trich dan hop le ['page:117']"
+  },
+  {
+    "query_id": "adv_test_dia_04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (diagram), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p117-txt-02']"
+  },
+  {
+    "query_id": "adv_test_dia_05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (diagram), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p075-txt-03']"
+  },
+  {
+    "query_id": "adv_test_cht_01",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (chart), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p039-vis-00', 'page:39']"
+  },
+  {
+    "query_id": "adv_test_cht_02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (chart), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p065-vis-00', 'page:65']"
+  },
+  {
+    "query_id": "adv_test_cht_03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (chart), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p083-txt-01']"
+  },
+  {
+    "query_id": "adv_test_cht_04",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (chart), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p108-txt-00', 'wdr2022-p108-txt-03']"
+  },
+  {
+    "query_id": "adv_test_cht_05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (chart), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p082-vis-00']"
+  },
+  {
+    "query_id": "adv_test_mhp_01",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (multihop), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p039-vis-00', 'wdr2022-p088-tab-00']"
+  },
+  {
+    "query_id": "adv_test_mhp_02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (multihop), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p107-txt-03']"
+  },
+  {
+    "query_id": "adv_test_mhp_03",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "False abstention (abstained): chua gom du ca hai ve Box 1.2 (tr.85) va Figure B1.2.1 (tr.86) trong gioi han buoc."
+  },
+  {
+    "query_id": "adv_test_mhp_04",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Tra loi dung trong tam (multihop), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p116-tab-00', 'wdr2022-p121-txt-01']"
+  },
+  {
+    "query_id": "adv_test_txt_01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (text), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p026-txt-02']"
+  },
+  {
+    "query_id": "adv_test_txt_02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (text), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p065-txt-03']"
+  },
+  {
+    "query_id": "adv_test_txt_03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (text), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p088-txt-00']"
+  },
+  {
+    "query_id": "adv_test_txt_04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Tra loi dung trong tam (text), noi dung/so lieu khop gold va co trich dan hop le ['wdr2022-p121-txt-02']"
+  },
+  {
+    "query_id": "adv_test_una_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  },
+  {
+    "query_id": "adv_test_una_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  },
+  {
+    "query_id": "adv_test_una_03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  },
+  {
+    "query_id": "adv_test_una_04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  },
+  {
+    "query_id": "adv_test_una_05",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  },
+  {
+    "query_id": "adv_test_una_06",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Tu choi dung (abstain=true): da kiem tra tai lieu va xac nhan thong tin khong ton tai trong WDR 2022."
+  }
+]
