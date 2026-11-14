@@ -1,0 +1,482 @@
+[
+  {
+    "id": "adv_dev_tab_01",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table B1.2.1 (trang 85), tỷ lệ trích lập dự phòng (provisioning rate) đối với khoản vay nhóm Substandard có thời gian quá hạn NPL < 12 tháng tại Ấn Độ năm 2008 là bao nhiêu phần trăm?",
+    "pages": [85],
+    "evidence": "Table B1.2.1: Substandard | <12 | 10 (%)",
+    "gold_answer": "10%."
+  },
+  {
+    "id": "adv_dev_tab_02",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 1.1 (trang 88), mức thay đổi trung bình tỷ lệ nợ công nội địa (Domestic debt) trên GDP của nhóm quốc gia thu nhập cao (High-income) trong giai đoạn 2010–19 và năm 2020 lần lượt là bao nhiêu % GDP?",
+    "pages": [88],
+    "evidence": "Table 1.1: Domestic debt, High-income: Average 2010-19 = -0.30; 2020 = 9.24 (% of GDP).",
+    "gold_answer": "Trung bình 2010–19 là -0.30% GDP; năm 2020 là 9.24% GDP."
+  },
+  {
+    "id": "adv_dev_tab_03",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 2.1 (trang 107), có bao nhiêu phần trăm quốc gia thu nhập thấp (Low-income) cho phép sự sẵn có của tài sản đảm bảo giúp ngân hàng tránh phân loại một khoản vay là nợ xấu (nonperforming)?",
+    "pages": [107],
+    "evidence": "Table 2.1: Availability of collateral allows banks to avoid classifying a loan as nonperforming | Low-income: 6 (%).",
+    "gold_answer": "6%."
+  },
+  {
+    "id": "adv_dev_dia_01",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure O.2 (trang 25), ba giai đoạn thời gian được hiển thị trên thanh mũi tên ngang ở phía dưới sơ đồ theo thứ tự từ trái sang phải là gì?",
+    "pages": [25],
+    "evidence": "Figure O.2 bottom timeline bar: Precrisis -> COVID-19 pandemic -> Crisis recovery.",
+    "gold_answer": "Precrisis, COVID-19 pandemic, và Crisis recovery."
+  },
+  {
+    "id": "adv_dev_dia_02",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Trong sơ đồ Figure O.3 bảng a (Vicious cycle, trang 26), trạng thái tiêu cực nào của khu vực Households and firms dẫn tới Lower tax revenue và Bank instability?",
+    "pages": [26],
+    "evidence": "Figure O.3a Vicious cycle: yellow arrows from Households and firms point to Lower tax revenue (Governments) and Bank instability (Financial sector) via NPLs and corporate insolvencies.",
+    "gold_answer": "NPLs and corporate insolvencies (và thu nhập/doanh thu suy giảm gây Lower tax revenue và Bank instability)."
+  },
+  {
+    "id": "adv_dev_dia_03",
+    "split": "dev",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure 2.4 (Nonperforming loan reduction flowchart, trang 117), đối với người vay thuộc nhóm Nonviable/uncooperative (màu đỏ), có những biện pháp xử lý nợ xấu nào được mũi tên trỏ tới?",
+    "pages": [117],
+    "evidence": "Figure 2.4: Red arrows from Nonviable/uncooperative point to Legal action, Write-off, and Sale (NOT Loan restructure).",
+    "gold_answer": "Gồm 3 biện pháp: Legal action, Write-off, và Sale (không áp dụng Loan restructure)."
+  },
+  {
+    "id": "adv_dev_cht_01",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure O.9 (trang 39), tỷ lệ nợ gộp của chính phủ (General government gross debt, % GDP) của nhóm High-income tăng từ bao nhiêu % năm 2019 lên bao nhiêu % năm 2020?",
+    "pages": [39],
+    "evidence": "Figure O.9: High-income line (dark blue) goes from 65.6% (2019) to 79.2% (2020).",
+    "gold_answer": "Tăng từ 65.6% GDP (năm 2019) lên 79.2% GDP (năm 2020), tăng 13.6 điểm phần trăm."
+  },
+  {
+    "id": "adv_dev_cht_02",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ cột chồng Figure BI.1.1 (trang 65), tổng số quốc gia High-income triển khai chương trình mua tài sản của ngân hàng trung ương là bao nhiêu quốc gia, và chia theo 3 loại (Government bonds, Corporate bonds, Both) như thế nào?",
+    "pages": [65],
+    "evidence": "Figure BI.1.1: High-income bar segments = Government bonds: 6, Corporate bonds: 2, Both: 6 (Total = 14 countries).",
+    "gold_answer": "Tổng cộng 14 quốc gia (6 quốc gia mua Government bonds, 2 quốc gia mua Corporate bonds, và 6 quốc gia mua Both)."
+  },
+  {
+    "id": "adv_dev_cht_03",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure 2.5 (trang 121), tỷ lệ nợ xấu trên tổng dư nợ (NPL ratio) của Serbia vào năm diễn ra cải cách (2015) là khoảng bao nhiêu % và đến tháng 12/2020 giảm xuống mức thấp lịch sử bao nhiêu %?",
+    "pages": [121],
+    "evidence": "Figure 2.5 & text p.121: Dashed line at 2015 (~21-22%); decreased to a historic low of 3.7% in December 2020.",
+    "gold_answer": "Khoảng 21–22% vào năm 2015 (khi thực hiện cải cách) và giảm xuống mức thấp lịch sử 3.7% vào tháng 12/2020."
+  },
+  {
+    "id": "adv_dev_mhp_01",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Table B1.2.1 (trang 85) và biểu đồ Figure B1.2.1 (trang 86), chính sách nới lỏng quy định (regulatory forbearance) của Ấn Độ được công bố và rút lại vào những năm nào, và tỷ lệ NPL của ngân hàng nhà nước (Public banks) thay đổi ra sao từ năm công bố đến năm 2016?",
+    "pages": [85, 86],
+    "evidence": "p.85 (2008 RBI announced special regulatory treatment) + Figure B1.2.1 p.86 (Policy announced 2008 ~2%, Policy withdrawn 2013 ~3.5%, rising to >9% in 2016).",
+    "gold_answer": "Chính sách được công bố năm 2008 và rút lại năm 2013; tỷ lệ NPL của ngân hàng nhà nước (Public banks) ở Ấn Độ tăng từ khoảng 2% (2008) lên trên 9% vào năm 2016."
+  },
+  {
+    "id": "adv_dev_mhp_02",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Figure 1.5 (trang 83) và Table 1.1 (trang 88), mức chênh lệch giữa thay đổi nợ công trung bình năm 2020 của nhóm High-income (13.63% GDP) so với nhóm Low-income (3.81% GDP) là bao nhiêu điểm phần trăm, và quốc gia nào ở Sub-Saharan Africa có dự báo nợ đọng chính phủ (arrears) hậu COVID-19 cao nhất trong Figure 1.5?",
+    "pages": [83, 88],
+    "evidence": "Table 1.1 p.88 (13.63 - 3.81 = 9.82 pp) + Figure 1.5 p.83 (Guinea and Botswana highest at ~9.2% of GDP).",
+    "gold_answer": "Chênh lệch là 9.82 điểm phần trăm (13.63% - 3.81%); trong Figure 1.5, Guinea (và Botswana) có dự báo arrears hậu COVID-19 cao nhất ở mức khoảng 9% GDP."
+  },
+  {
+    "id": "adv_dev_mhp_03",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Table 2.2 (trang 116) và Figure 2.4 (trang 117), công cụ phân tích nào được Figure 2.4 sử dụng để lựa chọn giữa các biện pháp xử lý nợ xấu, và trong Table 2.2 biện pháp Short-term restructuring có tính chất trung hòa theo chỉ số đó không?",
+    "pages": [116, 117],
+    "evidence": "Figure 2.4 p.117 (Net present value (NPV) analysis) + Table 2.2 p.116 (Short-term restructuring: usually in a net present value (NPV)-neutral manner).",
+    "gold_answer": "Công cụ phân tích là Net present value (NPV) analysis; trong Table 2.2, Short-term restructuring được thực hiện theo cách trung hòa giá trị hiện tại ròng (NPV-neutral manner)."
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 26 (Overview), Ngân hàng Trung ương Peru (Central Reserve Bank of Peru) đã sử dụng công cụ gì để bơm thanh khoản vào hệ thống ngân hàng và tác động đến lãi suất tín dụng mới ra sao?",
+    "pages": [26],
+    "evidence": "p.26: Central Reserve Bank of Peru injected liquidity into the banking system through government-backed repurchase (repo) agreements, which reduced the interest rate on new credit.",
+    "gold_answer": "Sử dụng các hợp đồng mua lại được chính phủ bảo lãnh (government-backed repurchase / repo agreements), giúp giảm lãi suất cho các khoản tín dụng mới."
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo Box 1.2 (trang 85), tỷ lệ NPL của Ấn Độ trước khủng hoảng tài chính toàn cầu (2008) và đến năm 2018 đứng ở vị trí nào so với các quốc gia G20?",
+    "pages": [85],
+    "evidence": "p.85: Prior to the global financial crisis, India had the lowest NPL ratio (2 percent) of all G20 nations... by 2018 India had the highest NPL ratio (11 percent) among this group of countries.",
+    "gold_answer": "Trước khủng hoảng, Ấn Độ có tỷ lệ NPL thấp nhất nhóm G20 (2%), nhưng đến năm 2018 lại có tỷ lệ NPL cao nhất nhóm G20 (11%)."
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 121, nhóm công tác quốc gia về nợ xấu (NPL working group) do Serbia thành lập vào tháng 5/2015 gồm những bộ ngành và tổ chức quốc tế nào?",
+    "pages": [121],
+    "evidence": "p.121: Ministries of Economy, Finance, and Justice and National Bank of Serbia; Chamber of Commerce, Deposit Insurance Agency; World Bank, IMF, IFC, EBRD.",
+    "gold_answer": "Thành viên nòng cốt gồm Bộ Kinh tế, Bộ Tài chính, Bộ Tư pháp và Ngân hàng Quốc gia Serbia; cùng Phòng Thương mại, Cơ quan Bảo hiểm Tiền gửi và các tổ chức quốc tế (World Bank, IMF, IFC, EBRD)."
+  },
+  {
+    "id": "adv_dev_una_01",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo tài liệu WDR 2022, dự báo tỷ lệ nợ công trên GDP của Việt Nam vào năm 2025 là bao nhiêu phần trăm?",
+    "pages": [],
+    "evidence": "Unanswerable: Checked WDR 2022 110p index; report covers 2010-2021 data and does not provide 2025 debt-to-GDP forecast for Vietnam.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_dev_una_02",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Table 2.1, tỷ lệ các quốc gia thu nhập cao (High-income) cho phép nâng hạng nợ ngay sau khi tái cơ cấu là bao nhiêu phần trăm?",
+    "pages": [107],
+    "evidence": "Unanswerable: Table 2.1 (p.107) only reports Low-income, Lower-middle-income, and Upper-middle-income; Note explicitly states 'excludes both high-income countries...'",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_dev_una_03",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Trong Figure B1.2.1 (trang 86), tỷ lệ nợ xấu (NPL) của các ngân hàng nước ngoài tại Trung Quốc năm 2015 là bao nhiêu?",
+    "pages": [86],
+    "evidence": "Unanswerable: Figure B1.2.1 (p.86) shows Nonperforming loans in India (Public banks and Private banks), not China.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_tab_01",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table B1.2.1 (trang 85), khoản vay thuộc nhóm Doubtful có thời gian quá hạn NPL từ 25–48 tháng phải trích lập dự phòng với tỷ lệ bao nhiêu %?",
+    "pages": [85],
+    "evidence": "Table B1.2.1 p.85: Doubtful | 25–48 | 30 (%).",
+    "gold_answer": "30%."
+  },
+  {
+    "id": "adv_test_tab_02",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table B1.2.1 (trang 85), khoảng tỷ lệ trích lập dự phòng đối với tài sản nhóm Standard là bao nhiêu %, và nhóm Loss là bao nhiêu %?",
+    "pages": [85],
+    "evidence": "Table B1.2.1 p.85: Standard = 0.25–1%; Loss = 100%.",
+    "gold_answer": "Nhóm Standard là 0.25–1%; nhóm Loss là 100%."
+  },
+  {
+    "id": "adv_test_tab_03",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 1.1 (trang 88), mức thay đổi trung bình tổng nợ chính phủ trung ương trên GDP (Total debt) năm 2020 của tất cả các quốc gia (All) là bao nhiêu %, và chia thành nợ nội địa (Domestic debt) và nợ nước ngoài (External debt) năm 2020 lần lượt là bao nhiêu %?",
+    "pages": [88],
+    "evidence": "Table 1.1 p.88 column All, row 2020: Total debt = 7.42%, Domestic debt = 3.73%, External debt = 3.74%.",
+    "gold_answer": "Tổng nợ (Total debt) là 7.42% GDP; trong đó nợ nội địa (Domestic debt) là 3.73% GDP và nợ nước ngoài (External debt) là 3.74% GDP."
+  },
+  {
+    "id": "adv_test_tab_04",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 1.1 (trang 88), đối với nhóm Upper-middle-income năm 2020, phần nợ nước ngoài (External debt) tăng thêm bao nhiêu % GDP và cao hơn bao nhiêu điểm phần trăm so với phần nợ nội địa (Domestic debt) tăng thêm cùng năm?",
+    "pages": [88],
+    "evidence": "Table 1.1 p.88 Upper-middle-income 2020: External debt = 3.74%, Domestic debt = 1.80%, diff = 1.94 percentage points.",
+    "gold_answer": "Nợ nước ngoài tăng 3.74% GDP, cao hơn 1.94 điểm phần trăm so với mức tăng nợ nội địa (1.80% GDP)."
+  },
+  {
+    "id": "adv_test_tab_05",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 2.1 (trang 107), tỷ lệ các quốc gia Upper-middle-income áp dụng hệ thống phân loại tài sản chung (common regulatory scale) là bao nhiêu %, và tỷ lệ cho phép nâng hạng ngay sau khi tái cơ cấu (immediately after restructured) ở nhóm này là bao nhiêu %?",
+    "pages": [107],
+    "evidence": "Table 2.1 p.107 Upper-middle-income: common regulatory scale = 95%; upgrade immediately after restructured = 21%.",
+    "gold_answer": "Áp dụng hệ thống phân loại tài sản chung là 95%; cho phép nâng hạng ngay sau khi tái cơ cấu là 21%."
+  },
+  {
+    "id": "adv_test_tab_06",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Table 2.2 (trang 116), công cụ Write-off thuộc nhóm Typology nào và yêu cầu điều kiện tiên quyết (Prerequisite) gì trước khi ngân hàng thực hiện?",
+    "pages": [116],
+    "evidence": "Table 2.2 p.116: Write-off | Typology: Disposal | Prerequisite: No realistic prospect of recovery. Loan is fully provisioned. Bank must demonstrate that all other measures have been exhausted.",
+    "gold_answer": "Write-off thuộc Typology 'Disposal'; điều kiện tiên quyết là không có triển vọng thu hồi thực tế, khoản vay đã được trích lập dự phòng đầy đủ (fully provisioned), và ngân hàng phải chứng minh đã sử dụng hết mọi biện pháp khác."
+  },
+  {
+    "id": "adv_test_dia_01",
+    "split": "test",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure O.2 (trang 25), bốn thành phần/khu vực kinh tế được chú thích xung quanh vòng tròn mũi tên kết nối rủi ro bảng cân đối kế toán là gì?",
+    "pages": [25],
+    "evidence": "Figure O.2 p.25: Governments and central banks, Global economy, Households and firms, Financial sector.",
+    "gold_answer": "Gồm 4 thành phần: Governments and central banks, Global economy, Households and firms, và Financial sector."
+  },
+  {
+    "id": "adv_test_dia_02",
+    "split": "test",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Trong sơ đồ Figure O.3 bảng b (Virtuous cycle, trang 26), khi chuyển sang vòng tuần hoàn tích cực, ba kết quả tích cực tương ứng với Governments and central banks (mũi tên xanh dương) và Households and firms (mũi tên vàng) gồm những yếu tố nào được ghi quanh vòng tròn?",
+    "pages": [26],
+    "evidence": "Figure O.3b p.26: Higher tax revenue, Stable banks, Improved credit supply, Stronger fiscal support, Favorable bond markets, Improved loan performance.",
+    "gold_answer": "Các kết quả tích cực ghi quanh vòng tròn gồm: Higher tax revenue, Stable banks, Improved credit supply, Stronger fiscal support, Favorable bond markets, và Improved loan performance (trong đó mũi tên xanh dương trỏ tới Stronger fiscal support và Favorable bond markets; mũi tên vàng trỏ tới Higher tax revenue và Improved loan performance)."
+  },
+  {
+    "id": "adv_test_dia_03",
+    "split": "test",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure 2.4 (trang 117), đối với người vay thuộc nhóm Viable/cooperative (màu xanh lá), mũi tên trỏ tới những biện pháp xử lý nợ xấu nào và biện pháp nào không dành cho nhóm Nonviable/uncooperative?",
+    "pages": [117],
+    "evidence": "Figure 2.4 p.117: Green arrows from Viable/cooperative point to all 4 measures (Loan restructure, Legal action, Write-off, Sale); Loan restructure is only for Viable/cooperative (not Nonviable/uncooperative).",
+    "gold_answer": "Nhóm Viable/cooperative có mũi tên trỏ tới cả 4 biện pháp (Loan restructure, Legal action, Write-off, Sale); biện pháp Loan restructure chỉ dành riêng cho nhóm Viable/cooperative chứ không dành cho nhóm Nonviable/uncooperative."
+  },
+  {
+    "id": "adv_test_dia_04",
+    "split": "test",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Figure 2.4 (trang 117), cột bên phải (Net present value (NPV) analysis) lưu ý nguyên tắc gì đối với việc ước tính tỷ lệ thu hồi, tỷ lệ chiết khấu và chi phí?",
+    "pages": [117],
+    "evidence": "Figure 2.4 p.117 right box: 'NPV analysis is based on realistic recovery and discount rates. All costs are included.'",
+    "gold_answer": "Phân tích NPV phải dựa trên tỷ lệ thu hồi và tỷ lệ chiết khấu thực tế (realistic recovery and discount rates), và tất cả các chi phí đều phải được tính vào (all costs are included)."
+  },
+  {
+    "id": "adv_test_dia_05",
+    "split": "test",
+    "category": "diagram",
+    "answerable": true,
+    "question": "Trong sơ đồ Figure 1.2 bảng a (Vicious cycle, trang 75), cụm từ 'Monetary and financial sector policy' được đặt ở khu vực nào của vòng tròn và chỉ ra hai hệ quả trực tiếp gì khi chính sách không đủ mạnh?",
+    "pages": [75],
+    "evidence": "Figure 1.2a p.75 (same diagram as O.3a): Restricted access to credit, Declining fiscal support, Bank instability, NPLs and corporate insolvencies.",
+    "gold_answer": "Trong vòng luẩn quẩn (Vicious cycle, trang 75), ba khu vực tác động qua lại gây ra Bank instability, NPLs and corporate insolvencies, Restricted access to credit, Unfavorable bond markets, Lower tax revenue và Declining fiscal support."
+  },
+  {
+    "id": "adv_test_cht_01",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ đường Figure O.9 (trang 39), nhóm quốc gia thu nhập nào có tỷ lệ nợ gộp chính phủ (% GDP) thấp nhất vào năm 2020 và giá trị cụ thể là bao nhiêu %?",
+    "pages": [39],
+    "evidence": "Figure O.9 p.39: Lower-middle-income (light blue line) is lowest in 2020 at 61.4% of GDP.",
+    "gold_answer": "Nhóm Lower-middle-income có tỷ lệ thấp nhất vào năm 2020 ở mức 61.4% GDP."
+  },
+  {
+    "id": "adv_test_cht_02",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ cột chồng Figure BI.1.1 (trang 65), có bao nhiêu quốc gia nhóm Low-income triển khai chương trình mua tài sản của ngân hàng trung ương và phân bổ cụ thể theo Government bonds, Corporate bonds, Both là bao nhiêu?",
+    "pages": [65],
+    "evidence": "Figure BI.1.1 p.65: Low-income total = 8 countries (Government bonds: 2, Corporate bonds: 1, Both: 5).",
+    "gold_answer": "Tổng cộng 8 quốc gia nhóm Low-income (gồm 2 quốc gia mua Government bonds, 1 quốc gia mua Corporate bonds, và 5 quốc gia mua Both)."
+  },
+  {
+    "id": "adv_test_cht_03",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ chấm Figure 1.6 (trang 83), hai chính sách tài chính nào được 100% các quốc gia High-income (chấm xanh đậm) áp dụng trong khủng hoảng COVID-19 tính đến 30/6/2021?",
+    "pages": [83],
+    "evidence": "Figure 1.6 p.83: High-income (dark blue dot) is at 100% for 'Debt moratoria for households' and 'Debt moratoria for firms'.",
+    "gold_answer": "Hai chính sách là 'Debt moratoria for households' và 'Debt moratoria for firms' (đều đạt 100% ở nhóm High-income)."
+  },
+  {
+    "id": "adv_test_cht_04",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure 2.2 phần a (trang 108), khu vực World Bank nào có năng lực hấp thụ nợ xấu cao nhất (Consolidated distance to break point tính bằng điểm phần trăm)?",
+    "pages": [108],
+    "evidence": "Figure 2.2a p.108: EAP (East Asia and Pacific) has the highest bar at ~35 percentage points.",
+    "gold_answer": "Khu vực East Asia and Pacific (EAP) có mức cao nhất (~35 điểm phần trăm)."
+  },
+  {
+    "id": "adv_test_cht_05",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Figure 1.4 (trang 82), đối với nhóm Low-income (màu đỏ), tỷ lệ % cho biết yếu tố nào là ràng buộc tài khóa lớn nhất trong phản ứng với COVID-19 (Access to domestic borrowing, Access to external borrowing, Access to foreign aid, hay Government debt sustainability)?",
+    "pages": [82],
+    "evidence": "Figure 1.4 p.82: Low-income bar is highest for 'Access to domestic borrowing' and 'Government debt sustainability' / 'Access to external borrowing'.",
+    "gold_answer": "Nhóm Low-income đối mặt với ràng buộc cao nhất ở khả năng tiếp cận vay trong nước/nước ngoài và tính bền vững nợ công (theo các thanh màu đỏ trên Figure 1.4)."
+  },
+  {
+    "id": "adv_test_mhp_01",
+    "split": "test",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Figure O.9 (trang 39) và Table 1.1 (trang 88), tỷ lệ nợ gộp của nhóm Low-income trong Figure O.9 tăng từ bao nhiêu % (2010) lên bao nhiêu % (2020), và trong Table 1.1 mức thay đổi trung bình tổng nợ trên GDP năm 2020 của nhóm Low-income là bao nhiêu %?",
+    "pages": [39, 88],
+    "evidence": "Figure O.9 p.39 (Low-income: 41.0% in 2010 -> 67.0% in 2020) + Table 1.1 p.88 (Low-income Total debt 2020 = 3.81%).",
+    "gold_answer": "Trong Figure O.9, nợ gộp của nhóm Low-income tăng từ 41.0% GDP (2010) lên 67.0% GDP (2020); trong Table 1.1, mức thay đổi trung bình tổng nợ/GDP năm 2020 của nhóm này là 3.81%."
+  },
+  {
+    "id": "adv_test_mhp_02",
+    "split": "test",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Table 2.1 (trang 107) và chú thích bên dưới bảng, cuộc khảo sát BRSS lần thứ 5 thu thập dữ liệu của bao nhiêu vùng lãnh thổ (jurisdictions) ngoài ECB, và trong đó có bao nhiêu quốc gia thuộc nhóm Lower-middle-income?",
+    "pages": [107],
+    "evidence": "p.107 Table 2.1 Note: 160 jurisdictions and the European Central Bank; lower-middle-income = 34 countries.",
+    "gold_answer": "Thu thập thông tin từ 160 vùng lãnh thổ (jurisdictions) cùng ECB; trong đó nhóm Lower-middle-income có 34 quốc gia."
+  },
+  {
+    "id": "adv_test_mhp_03",
+    "split": "test",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp Box 1.2 (trang 85) và Figure B1.2.1 (trang 86), vì sao các ngân hàng nhà nước ở Ấn Độ tích tụ nhiều tài sản xấu hơn ngân hàng tư nhân sau chính sách 2008 và nhóm ngân hàng nhà nước chiếm khoảng bao nhiêu % hệ thống ngân hàng Ấn Độ?",
+    "pages": [85, 86],
+    "evidence": "p.85 (negative consequences exacerbated by poor corporate governance, zombie firms) + p.86 (state-owned banks account for approximately 70 percent of the Indian banking sector).",
+    "gold_answer": "Do quản trị doanh nghiệp yếu kém (poor corporate governance) và cho vay các doanh nghiệp 'zombie'; các ngân hàng nhà nước chiếm khoảng 70% hệ thống ngân hàng Ấn Độ."
+  },
+  {
+    "id": "adv_test_mhp_04",
+    "split": "test",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Kết hợp trang 116 (Table 2.2) và trang 121 (bài học từ Serbia), hai hình thức tái cơ cấu khoản vay (Loan restructuring) trong Table 2.2 là gì, và chiến lược xử lý nợ xấu của Serbia năm 2015 gồm mấy ưu tiên chiến lược?",
+    "pages": [116, 121],
+    "evidence": "Table 2.2 p.116 (Short-term restructuring & Concessional restructuring) + p.121 (four strategic priorities).",
+    "gold_answer": "Hai hình thức là Short-term restructuring (Rescheduling) và Concessional restructuring (Workout); chiến lược của Serbia gồm 4 ưu tiên chiến lược."
+  },
+  {
+    "id": "adv_test_txt_01",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 26 (Overview), có bao nhiêu nền kinh tế mới nổi (emerging economies) lần đầu tiên áp dụng chương trình mua tài sản (asset purchase programs) để ứng phó với khủng hoảng COVID-19?",
+    "pages": [26],
+    "evidence": "p.26: Twenty-seven emerging economies adopted such programs for the first time in response to the COVID-19 crisis.",
+    "gold_answer": "27 nền kinh tế mới nổi (Twenty-seven emerging economies)."
+  },
+  {
+    "id": "adv_test_txt_02",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 65 (Box I.1), quốc hội Thái Lan đã phê duyệt quỹ trị giá bao nhiêu baht (và tương đương bao nhiêu tỷ USD) để mua trái phiếu doanh nghiệp trong đại dịch COVID-19?",
+    "pages": [65],
+    "evidence": "p.65: Thailand's parliament approved a law to set up a B 400 billion ($12.3 billion) fund to buy corporate bonds.",
+    "gold_answer": "400 tỷ baht (tương đương 12.3 tỷ USD)."
+  },
+  {
+    "id": "adv_test_txt_03",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 88 (dưới Table 1.1), trong năm 2020 có bao nhiêu chính phủ vỡ nợ với các chủ nợ tư nhân nước ngoài (external private creditors), so với mức trung bình hàng năm của thập kỷ trước là bao nhiêu?",
+    "pages": [88],
+    "evidence": "p.88: In 2020, five governments defaulted on their obligations to external private creditors... In the previous decade, an average of two governments defaulted every year.",
+    "gold_answer": "Năm 2020 có 5 chính phủ vỡ nợ với chủ nợ tư nhân nước ngoài, so với mức trung bình 2 chính phủ/năm trong thập kỷ trước."
+  },
+  {
+    "id": "adv_test_txt_04",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 121 (dưới Figure 2.5), những quốc gia nào ở châu Á đã sử dụng công ty quản lý tài sản công (public AMCs) trong cuộc khủng hoảng tài chính châu Á cuối thập niên 1990?",
+    "pages": [121],
+    "evidence": "p.121: Indonesia, the Republic of Korea, Malaysia, and Thailand, among other countries, used public AMCs in the Asian financial crisis in the late 1990s.",
+    "gold_answer": "Indonesia, Hàn Quốc (Republic of Korea), Malaysia, và Thái Lan (Thailand)."
+  },
+  {
+    "id": "adv_test_una_01",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Table 1.1 (trang 88), tỷ lệ nợ nước ngoài (External debt) trên GDP năm 2021 của nhóm High-income là bao nhiêu phần trăm?",
+    "pages": [88],
+    "evidence": "Unanswerable: Table 1.1 only covers Average 2010–19 and 2020; no 2021 data.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_una_02",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Table B1.2.1 (trang 85), tỷ lệ trích lập dự phòng (provisioning rate) của Ấn Độ đối với khoản vay thế chấp tiền mã hóa (cryptocurrency-backed loans) là bao nhiêu %?",
+    "pages": [85],
+    "evidence": "Unanswerable: Table B1.2.1 lists Standard, Substandard, Doubtful, Loss; no cryptocurrency-backed loans category.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_una_03",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Figure O.9 (trang 39), tỷ lệ nợ gộp chính phủ (% GDP) của riêng Nhật Bản và Đức vào năm 2020 là bao nhiêu?",
+    "pages": [39],
+    "evidence": "Unanswerable: Figure O.9 aggregates by income group (High-income, etc.), not individual countries like Japan or Germany.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_una_04",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Trong phần tài liệu 110 trang (trang 13–122), báo cáo có cung cấp số liệu về trái phiếu xanh chính phủ (sovereign sustainable bonds) trong Spotlight 5.1 không?",
+    "pages": [],
+    "evidence": "Unanswerable: Spotlight 5.1 is around page 241 in the full report, outside the 110-page split (pages 13-122).",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_una_05",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Figure 2.5 (trang 121), tỷ lệ nợ xấu (NPL) của Serbia dự báo cho năm 2025 là bao nhiêu phần trăm?",
+    "pages": [121],
+    "evidence": "Unanswerable: Figure 2.5 covers 2010–2020 only, no 2025 forecast.",
+    "gold_answer": "ABSTAIN"
+  },
+  {
+    "id": "adv_test_una_06",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Theo Box I.1 (trang 65), Cục Dự trữ Liên bang Mỹ (Fed) đã mua chính xác bao nhiêu tỷ USD trái phiếu doanh nghiệp vào tháng 6 năm 2020?",
+    "pages": [65],
+    "evidence": "Unanswerable: Box I.1 mentions US Federal Reserve Bank generally and gives Thailand's B 400 billion ($12.3 billion) fund, not the Fed's exact June 2020 dollar figure.",
+    "gold_answer": "ABSTAIN"
+  }
+]

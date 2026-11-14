@@ -1,0 +1,17 @@
+{
+  "strategy": "selected_rewrite_hybrid_filter_budget2400",
+  "split": "test",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 2400,
+  "use_filter": true,
+  "hit1": 2,
+  "hit1_rate": 0.4,
+  "hit3": 4,
+  "hit3_rate": 0.8,
+  "context_hit": 4,
+  "context_hit_rate": 0.8,
+  "avg_context_chars": 1911.4,
+  "median_ms": 4614.92,
+  "service_cost_usd": 0.000917
+}

@@ -1,0 +1,69 @@
+{
+  "split": "test",
+  "cases": 30,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 30,
+    "N": 30
+  },
+  "grounded_answer": {
+    "0": 1,
+    "1": 0,
+    "2": 23,
+    "N": 24,
+    "mean": 1.9167
+  },
+  "citation_validity": {
+    "n": 32,
+    "N": 32
+  },
+  "answer_citation_coverage": {
+    "n": 23,
+    "N": 23
+  },
+  "abstention": {
+    "n": 6,
+    "N": 6
+  },
+  "false_abstention": {
+    "n": 1,
+    "N": 24
+  },
+  "by_category": {
+    "table": {
+      "n": 6,
+      "pass": 6
+    },
+    "diagram": {
+      "n": 5,
+      "pass": 5
+    },
+    "chart": {
+      "n": 5,
+      "pass": 5
+    },
+    "multihop": {
+      "n": 4,
+      "pass": 3
+    },
+    "text": {
+      "n": 4,
+      "pass": 4
+    },
+    "unanswerable": {
+      "n": 6,
+      "pass": 6
+    }
+  },
+  "count": 30,
+  "avg_latency_ms": 9551.75,
+  "p95_latency_ms": 22150.76,
+  "total_tool_calls": 47,
+  "total_errors": 0,
+  "cost_usd": {
+    "embedding": 1.3e-05,
+    "vision_inspect": 0.010271,
+    "controller_llm": 0.024415,
+    "total": 0.034699
+  }
+}

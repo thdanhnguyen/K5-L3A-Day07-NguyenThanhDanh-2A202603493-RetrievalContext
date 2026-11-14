@@ -1,0 +1,17 @@
+{
+  "strategy": "baseline_tfidf",
+  "split": "test",
+  "n": 5,
+  "top_k": 3,
+  "budget_chars": 800,
+  "use_filter": false,
+  "hit1": 2,
+  "hit1_rate": 0.4,
+  "hit3": 4,
+  "hit3_rate": 0.8,
+  "context_hit": 1,
+  "context_hit_rate": 0.2,
+  "avg_context_chars": 657,
+  "median_ms": 0.33,
+  "service_cost_usd": 0.0
+}

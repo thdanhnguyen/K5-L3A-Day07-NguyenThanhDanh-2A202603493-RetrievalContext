@@ -1,0 +1,791 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Tiểu mục GOVERN 4.3 yêu cầu tổ chức thiết lập các thông lệ nào để xử lý kiểm thử và sự cố AI?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "NIST AI RMF GOVERN 4.3 testing practices AI incidents",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p24-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 24,
+            "text": "4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 19,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.023565,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p34-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 34,
+            "text": "Practices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 29,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.021748,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p37-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 37,
+            "text": "Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and subcategories.\n\nTable 4: Categories and subcategories for the MANAGE function.\n\nMANAGE 1: AI risks based on assessments and other analytical output from the MAP and MEASURE functions are prioritized, responded to, and managed.\n\nMANAGE 1.1: A determination is made as to whether the AI system achieves its intended purposes and stated objectives and whether its development or deployment should proceed.\n\nMANAGE 1.2: Treatment of documented AI risks is prioritized based on impact, likelihood, and available resources or methods.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 32,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 661
+            },
+            "score": 0.021547,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p24-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 24]\n4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:\n\n[nist-ai-rmf-1.0-p34-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 34]\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p24-par-00",
+          "nist-ai-rmf-1.0-p34-par-00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "NIST AI RMF GOVERN 4.3 organizational practices testing AI systems incident response documentation",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p24-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 24,
+            "text": "4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 19,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.023088,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p37-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 37,
+            "text": "Practices related to managing AI risks are described in the NIST AI RMF Playbook. Table 4 lists the MANAGE function’s categories and subcategories.\n\nTable 4: Categories and subcategories for the MANAGE function.\n\nMANAGE 1: AI risks based on assessments and other analytical output from the MAP and MEASURE functions are prioritized, responded to, and managed.\n\nMANAGE 1.1: A determination is made as to whether the AI system achieves its intended purposes and stated objectives and whether its development or deployment should proceed.\n\nMANAGE 1.2: Treatment of documented AI risks is prioritized based on impact, likelihood, and available resources or methods.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 32,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 661
+            },
+            "score": 0.021636,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p08-par-02",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 8,
+            "text": "Development of the AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recommendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools. Engagement with the AI community during this Framework’s development – via responses to a formal Request for Information, three widely attended workshops, public comments on a concept paper and two drafts of the Framework, discussions at multiple public forums, and many small group meetings – has informed development of the AI RMF 1.0 as well as AI research and development and evaluation conducted by NIST and others.",
+            "metadata": {
+              "section": "executive_summary",
+              "document_page": 3,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 2,
+              "char_length": 782
+            },
+            "score": 0.016393,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p24-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 24]\n4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:\n\n[nist-ai-rmf-1.0-p34-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 34]\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p24-par-00",
+          "nist-ai-rmf-1.0-p34-par-00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 2,
+    "elapsed_ms": 5140.35
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Theo tiểu mục MEASURE 3.3, quy trình phản hồi dành cho người dùng cuối và cộng đồng bị ảnh hưởng cần phục vụ mục đích gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Quy trình này nhằm giúp người dùng cuối và cộng đồng bị ảnh hưởng báo cáo vấn đề, khiếu nại các kết quả của hệ thống, đồng thời tích hợp phản hồi đó vào các chỉ số đánh giá hệ thống AI [nist-ai-rmf-1.0-p36-par-00].",
+    "citations": [
+      "nist-ai-rmf-1.0-p36-par-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "NIST AI RMF MEASURE 3.3 feedback processes end users and impacted communities purpose",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p24-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 24,
+            "text": "4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 19,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.024086,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p36-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 36,
+            "text": "Table 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.\n\nMEASURE 4:\n\nFeedback about efficacy of measurement is gathered and assessed.\n\nMEASURE 4.1: Measurement approaches for identifying AI risks are connected to deployment context(s) and informed through consultation with domain experts and other end users. Approaches are documented.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 31,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 540
+            },
+            "score": 0.02407,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p34-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 34,
+            "text": "Practices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 29,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.02369,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p24-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 24]\n4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:\n\n[nist-ai-rmf-1.0-p36-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 36]\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.\n\nMEASURE 4:\n\nFeedback about efficacy of measurement is gathered and assessed.\n\nMEASURE 4.1: Measurement approaches for identifying AI risks are connected to deployment context(s) and informed through consultation with domain experts and other end users. Approaches are documented.\n\n[nist-ai-rmf-1.0-p34-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 34]\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p24-par-00",
+          "nist-ai-rmf-1.0-p36-par-00",
+          "nist-ai-rmf-1.0-p34-par-00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 4040.07
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Kế hoạch giám sát hệ thống AI sau triển khai theo tiểu mục MANAGE 4.1 phải bao gồm những cơ chế nào?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Theo MANAGE 4.1, kế hoạch giám sát hệ thống AI sau triển khai phải được thực hiện và bao gồm các cơ chế: thu thập và đánh giá ý kiến từ người dùng cùng các tác nhân AI liên quan khác; kháng nghị và ghi đè quyết định (appeal and override); ngừng vận hành hệ thống; ứng phó sự cố; khôi phục; và quản lý thay đổi [nist-ai-rmf-1.0-p38-par-00].",
+    "citations": [
+      "nist-ai-rmf-1.0-p38-par-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "NIST AI RMF MANAGE 4.1 post-deployment monitoring plan mechanisms",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p38-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 38,
+            "text": "Table 4: Categories and subcategories for the MANAGE function. (Continued)\n\nMANAGE 4: Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.\n\nMANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.\n\nMANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 33,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 686
+            },
+            "score": 0.024326,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p24-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 24,
+            "text": "4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 19,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.024086,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p08-par-02",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 8,
+            "text": "Development of the AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recommendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools. Engagement with the AI community during this Framework’s development – via responses to a formal Request for Information, three widely attended workshops, public comments on a concept paper and two drafts of the Framework, discussions at multiple public forums, and many small group meetings – has informed development of the AI RMF 1.0 as well as AI research and development and evaluation conducted by NIST and others.",
+            "metadata": {
+              "section": "executive_summary",
+              "document_page": 3,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 2,
+              "char_length": 782
+            },
+            "score": 0.023686,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p38-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 38]\nTable 4: Categories and subcategories for the MANAGE function. (Continued)\n\nMANAGE 4: Risk treatments, including response and recovery, and communication plans for the identified and measured AI risks are documented and monitored regularly.\n\nMANAGE 4.1: Post-deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI actors, appeal and override, decommissioning, incident response, recovery, and change management.\n\nMANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI actors.\n\n[nist-ai-rmf-1.0-p24-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 24]\n4. Effectiveness of the AI RMF Evaluations of AI RMF effectiveness – including ways to measure bottom-line improvements in the trustworthiness of AI systems – will be part of future NIST activities, in conjunction with the AI community.\n\nOrganizations and other users of the Framework are encouraged to periodically evaluate whether the AI RMF has improved their ability to manage AI risks, including but not limited to their policies, processes, practices, implementation plans, indicators, measurements, and expected outcomes. NIST intends to work collaboratively with others to develop metrics, methodologies, and goals for evaluating the AI RMF’s effectiveness, and to broadly share results and supporting information. Framework users are expected to benefit from:",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p38-par-00",
+          "nist-ai-rmf-1.0-p24-par-00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 6133.78
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Trong phần Phụ lục (Appendix B), những tính năng nào của hệ thống AI vừa tiềm ẩn rủi ro nhưng đồng thời cũng mang lại lợi ích giúp nâng cao độ chính xác và khả năng phục hồi?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Các mô hình được huấn luyện trước (pre-trained models) và học chuyển giao (transfer learning) vừa có thể tiềm ẩn rủi ro, vừa có lợi ích: chúng có thể thúc đẩy nghiên cứu, đồng thời nâng cao độ chính xác và khả năng phục hồi so với các mô hình và cách tiếp cận khác [nist-ai-rmf-1.0-p43-par-00].",
+    "citations": [
+      "nist-ai-rmf-1.0-p43-par-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Appendix B AI system features pose risks while providing benefits improve accuracy and resilience",
+        "filter": {
+          "section": "appendix"
+        },
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p43-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 43,
+            "text": "Appendix B:\n\nHow AI Risks Differ from Traditional Software Risks As with traditional software, risks from AI-based technology can be bigger than an enterprise, span organizations, and lead to societal impacts. AI systems also bring a set of risks that are not comprehensively addressed by current risk frameworks and approaches. Some AI system features that present risks also can be beneficial. For example, pre-trained models and transfer learning can advance research and increase accuracy and resilience when compared to other models and approaches. Identifying contextual factors in theMAP function will assist AI actors in determining the level of risk and potential management efforts.\n\nCompared to traditional software, AI-specific risks that are new or increased include the following:",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 38,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 794
+            },
+            "score": 0.02459,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "Appendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 412
+            },
+            "score": 0.023336,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p43-par-02",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 43,
+            "text": "• AI system scale and complexity (many systems contain billions or even trillions of decision points) housed within more traditional software applications.\n\n• Use of pre-trained models that can advance research and improve performance can also increase levels of statistical uncertainty and cause issues with bias management, scientific validity, and reproducibility.\n\n• Higher degree of difficulty in predicting failure modes for emergent properties of large-scale pre-trained models.\n\n• Privacy risk due to enhanced data aggregation capability for AI systems.\n\n• AI systems may require more frequent maintenance and triggers for conducting corrective maintenance due to data, model, or concept drift.\n\n• Increased opacity and concerns about reproducibility.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 38,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 2,
+              "char_length": 759
+            },
+            "score": 0.023201,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p43-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 43]\nAppendix B:\n\nHow AI Risks Differ from Traditional Software Risks As with traditional software, risks from AI-based technology can be bigger than an enterprise, span organizations, and lead to societal impacts. AI systems also bring a set of risks that are not comprehensively addressed by current risk frameworks and approaches. Some AI system features that present risks also can be beneficial. For example, pre-trained models and transfer learning can advance research and increase accuracy and resilience when compared to other models and approaches. Identifying contextual factors in theMAP function will assist AI actors in determining the level of risk and potential management efforts.\n\nCompared to traditional software, AI-specific risks that are new or increased include the following:\n\n[nist-ai-rmf-1.0-p45-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nAppendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.\n\n[nist-ai-rmf-1.0-p43-par-02 | starter/data/NIST_AI_RMF_1.0.pdf | page 43]\n• AI system scale and complexity (many systems contain billions or even trillions of decision points) housed within more traditional software applications.\n\n• Use of pre-trained models that can advance research and improve performance can also increase levels of statistical uncertainty and cause issues with bias management, scientific validity, and reproducibility.\n\n• Higher degree of difficulty in predicting failure modes for emergent properties of large-scale pre-trained models.\n\n• Privacy risk due to enhanced data aggregation capability for AI systems.\n\n• AI systems may require more frequent maintenance and triggers for conducting corrective maintenance due to data, model, or concept drift.\n\n• Increased opacity and concerns about reproducibility.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p43-par-00",
+          "nist-ai-rmf-1.0-p45-par-00",
+          "nist-ai-rmf-1.0-p43-par-02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 3915.43
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Theo Appendix C về tương tác người-AI, hạn chế cốt lõi khi biểu diễn các hiện tượng phức tạp của con người bằng mô hình toán học là gì?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Hạn chế cốt lõi là việc biểu diễn các hiện tượng phức tạp của con người bằng mô hình toán học có thể làm mất đi bối cảnh cần thiết. Sự mất mát này có thể khiến việc hiểu các tác động lên cá nhân và xã hội—những yếu tố then chốt trong quản lý rủi ro AI—trở nên khó khăn hơn [nist-ai-rmf-1.0-p45-par-01].",
+    "citations": [
+      "nist-ai-rmf-1.0-p45-par-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Appendix C human-AI interaction limitations mathematical models represent complex human phenomena",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-01",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "Many of the data-driven approaches that AI systems rely on attempt to convert or represent individual and social observational and decision-making practices into measurable quantities. Representing complex human phenomena with mathematical models can come at the cost of removing necessary context. This loss of context may in turn make it difficult to understand individual and societal impacts that are key to AI risk management efforts. Issues that merit further consideration and research include:",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 1,
+              "char_length": 501
+            },
+            "score": 0.024458,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "Appendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 412
+            },
+            "score": 0.024326,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-04",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "These biases can also influence downstream decisions by end users, decision makers, and policy makers and may lead to negative impacts.\n\n3. Human-AI interaction results vary. Under certain conditions – for example, in perceptual-based judgment tasks – the AI part of the human-AI interaction can amplify human biases, leading to more biased decisions than the AI or human alone. When these variations are judiciously taken into account in organizing human-AI teams, however, they can result in complementarity and improved overall performance.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 4,
+              "char_length": 543
+            },
+            "score": 0.02381,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p45-par-01 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nMany of the data-driven approaches that AI systems rely on attempt to convert or represent individual and social observational and decision-making practices into measurable quantities. Representing complex human phenomena with mathematical models can come at the cost of removing necessary context. This loss of context may in turn make it difficult to understand individual and societal impacts that are key to AI risk management efforts. Issues that merit further consideration and research include:\n\n[nist-ai-rmf-1.0-p45-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nAppendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.\n\n[nist-ai-rmf-1.0-p45-par-04 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nThese biases can also influence downstream decisions by end users, decision makers, and policy makers and may lead to negative impacts.\n\n3. Human-AI interaction results vary. Under certain conditions – for example, in perceptual-based judgment tasks – the AI part of the human-AI interaction can amplify human biases, leading to more biased decisions than the AI or human alone. When these variations are judiciously taken into account in organizing human-AI teams, however, they can result in complementarity and improved overall performance.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p45-par-01",
+          "nist-ai-rmf-1.0-p45-par-00",
+          "nist-ai-rmf-1.0-p45-par-04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 4666.7
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "Theo chức năng MEASURE trong NIST AI RMF 1.0, ngưỡng số lượng tham số (parameters) hoặc số phép tính huấn luyện (FLOPs) tối thiểu để một mô hình AI bị xếp vào nhóm rủi ro nghiêm trọng là bao nhiêu?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "AI RMF 1.0 MEASURE function minimum model parameter count training compute FLOPs severe risk threshold",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p34-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 34,
+            "text": "Practices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 29,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 768
+            },
+            "score": 0.024194,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p35-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 35,
+            "text": "Table 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.\n\nMEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.\n\nMEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented.",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 30,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 758
+            },
+            "score": 0.02364,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p13-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 13,
+            "text": "When applying the AI RMF, risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process. In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficiently managed. If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization.",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 8,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 668
+            },
+            "score": 0.02165,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p34-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 34]\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.\n\n[nist-ai-rmf-1.0-p35-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 35]\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.\n\nMEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.\n\nMEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p34-par-00",
+          "nist-ai-rmf-1.0-p35-par-00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "NIST AI RMF 1.0 Appendix A model scale number of parameters training compute FLOPs threshold high impact risk",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p08-par-02",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 8,
+            "text": "Development of the AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recommendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools. Engagement with the AI community during this Framework’s development – via responses to a formal Request for Information, three widely attended workshops, public comments on a concept paper and two drafts of the Framework, discussions at multiple public forums, and many small group meetings – has informed development of the AI RMF 1.0 as well as AI research and development and evaluation conducted by NIST and others.",
+            "metadata": {
+              "section": "executive_summary",
+              "document_page": 3,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 2,
+              "char_length": 782
+            },
+            "score": 0.024326,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p47-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 47,
+            "text": "Appendix D:\n\nAttributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. They are provided here as a reference. The AI RMF strives to:\n\n1. Be risk-based, resource-efficient, pro-innovation, and voluntary.\n\n2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 42,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 534
+            },
+            "score": 0.023938,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p08-par-01",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 8,
+            "text": "https://www.nist.gov/itl/ai-risk-management-framework.",
+            "metadata": {
+              "section": "executive_summary",
+              "document_page": 3,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 1,
+              "char_length": 54
+            },
+            "score": 0.016393,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p34-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 34]\nPractices related to measuring AI risks are described in the NIST AI RMF Playbook. Table 3 lists the MEASURE function’s categories and subcategories.\n\nTable 3: Categories and subcategories for the MEASURE function.\n\nMEASURE 1:\n\nAppropriate methods and metrics are identified and applied.\n\nMEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.\n\nMEASURE 1.2: Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities.\n\n[nist-ai-rmf-1.0-p35-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 35]\nTable 3: Categories and subcategories for the MEASURE function. (Continued)\n\nMEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in theMAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.\n\nMEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.\n\nMEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented.\n\n[nist-ai-rmf-1.0-p47-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 47]\nAppendix D:\n\nAttributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. They are provided here as a reference. The AI RMF strives to:\n\n1. Be risk-based, resource-efficient, pro-innovation, and voluntary.\n\n2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p34-par-00",
+          "nist-ai-rmf-1.0-p35-par-00",
+          "nist-ai-rmf-1.0-p47-par-00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 2,
+    "elapsed_ms": 5349.79
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "Theo Phụ lục A (Appendix A) của NIST AI RMF 1.0, thời hạn bắt buộc (số ngày tối đa) để nhà phát triển AI phải báo cáo sự cố nghiêm trọng lên Quốc hội Hoa Kỳ là bao nhiêu ngày?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Appendix A congressional reporting deadline days serious AI incident developers report to Congress",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p32-par-03",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 32,
+            "text": "MAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.\n\nCategories Subcategories\n\nContinued on next page",
+            "metadata": {
+              "section": "part_2_core_profiles",
+              "document_page": 27,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 3,
+              "char_length": 372
+            },
+            "score": 0.022738,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "Appendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 412
+            },
+            "score": 0.022667,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p19-par-04",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 19,
+            "text": "• responsible design, development, and deployment practices;\n\n• clear information to deployers on responsible use of the system;\n\n• responsible decision-making by deployers and end users; and\n\n• explanations and documentation of risks based on empirical evidence of incidents. Different types of safety risks may require tailored AI risk management approaches based on context and the severity of potential risks presented. Safety risks that pose a potential risk of serious injury or death call for the most urgent prioritization and most thorough risk management process.",
+            "metadata": {
+              "section": "part_1_foundational",
+              "document_page": 14,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 4,
+              "char_length": 573
+            },
+            "score": 0.022482,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p32-par-03 | starter/data/NIST_AI_RMF_1.0.pdf | page 32]\nMAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.\n\nCategories Subcategories\n\nContinued on next page\n\n[nist-ai-rmf-1.0-p45-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nAppendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.\n\n[nist-ai-rmf-1.0-p19-par-04 | starter/data/NIST_AI_RMF_1.0.pdf | page 19]\n• responsible design, development, and deployment practices;\n\n• clear information to deployers on responsible use of the system;\n\n• responsible decision-making by deployers and end users; and\n\n• explanations and documentation of risks based on empirical evidence of incidents. Different types of safety risks may require tailored AI risk management approaches based on context and the severity of potential risks presented. Safety risks that pose a potential risk of serious injury or death call for the most urgent prioritization and most thorough risk management process.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p32-par-03",
+          "nist-ai-rmf-1.0-p45-par-00",
+          "nist-ai-rmf-1.0-p19-par-04"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Appendix A AI RMF 1.0 congressional reporting deadline serious incident reporting Congress",
+        "filter": null,
+        "results": [
+          {
+            "id": "nist-ai-rmf-1.0-p08-par-02",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 8,
+            "text": "Development of the AI RMF by NIST in collaboration with the private and public sectors is directed and consistent with its broader AI efforts called for by the National AI Initiative Act of 2020, the National Security Commission on Artificial Intelligence recommendations, and the Plan for Federal Engagement in Developing Technical Standards and Related Tools. Engagement with the AI community during this Framework’s development – via responses to a formal Request for Information, three widely attended workshops, public comments on a concept paper and two drafts of the Framework, discussions at multiple public forums, and many small group meetings – has informed development of the AI RMF 1.0 as well as AI research and development and evaluation conducted by NIST and others.",
+            "metadata": {
+              "section": "executive_summary",
+              "document_page": 3,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 2,
+              "char_length": 782
+            },
+            "score": 0.024066,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p47-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 47,
+            "text": "Appendix D:\n\nAttributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. They are provided here as a reference. The AI RMF strives to:\n\n1. Be risk-based, resource-efficient, pro-innovation, and voluntary.\n\n2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 42,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 534
+            },
+            "score": 0.023686,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "nist-ai-rmf-1.0-p45-par-00",
+            "source_id": "nist-ai-rmf-1.0",
+            "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+            "page": 45,
+            "text": "Appendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.",
+            "metadata": {
+              "section": "appendix",
+              "document_page": 40,
+              "year": 2023,
+              "version": "1.0",
+              "chunk_strategy": "par",
+              "chunk_index": 0,
+              "char_length": 412
+            },
+            "score": 0.021952,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[nist-ai-rmf-1.0-p32-par-03 | starter/data/NIST_AI_RMF_1.0.pdf | page 32]\nMAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.\n\nCategories Subcategories\n\nContinued on next page\n\n[nist-ai-rmf-1.0-p45-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 45]\nAppendix C:\n\nAI Risk Management and Human-AI Interaction Organizations that design, develop, or deploy AI systems for use in operational settings may enhance their AI risk management by understanding current limitations of humanAI interaction. The AI RMF provides opportunities to clearly define and differentiate the various human roles and responsibilities when using, interacting with, or managing AI systems.\n\n[nist-ai-rmf-1.0-p19-par-04 | starter/data/NIST_AI_RMF_1.0.pdf | page 19]\n• responsible design, development, and deployment practices;\n\n• clear information to deployers on responsible use of the system;\n\n• responsible decision-making by deployers and end users; and\n\n• explanations and documentation of risks based on empirical evidence of incidents. Different types of safety risks may require tailored AI risk management approaches based on context and the severity of potential risks presented. Safety risks that pose a potential risk of serious injury or death call for the most urgent prioritization and most thorough risk management process.\n\n[nist-ai-rmf-1.0-p47-par-00 | starter/data/NIST_AI_RMF_1.0.pdf | page 47]\nAppendix D:\n\nAttributes of the AI RMF NIST described several key attributes of the AI RMF when work on the Framework first began. These attributes have remained intact and were used to guide the AI RMF’s development. They are provided here as a reference. The AI RMF strives to:\n\n1. Be risk-based, resource-efficient, pro-innovation, and voluntary.\n\n2. Be consensus-driven and developed and regularly updated through an open, transparent process. All stakeholders should have the opportunity to contribute to the AI RMF’s development.",
+        "context_ids": [
+          "nist-ai-rmf-1.0-p32-par-03",
+          "nist-ai-rmf-1.0-p45-par-00",
+          "nist-ai-rmf-1.0-p19-par-04",
+          "nist-ai-rmf-1.0-p47-par-00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 2,
+    "elapsed_ms": 5007.16
+  }
+]

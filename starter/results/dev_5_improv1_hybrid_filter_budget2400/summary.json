@@ -1,0 +1,17 @@
+{
+  "strategy": "5_improv1_hybrid_filter_budget2400",
+  "split": "dev",
+  "n": 15,
+  "top_k": 3,
+  "budget_chars": 2400,
+  "use_filter": true,
+  "hit1": 9,
+  "hit1_rate": 0.6,
+  "hit3": 10,
+  "hit3_rate": 0.6667,
+  "context_hit": 10,
+  "context_hit_rate": 0.6667,
+  "avg_context_chars": 1958.7,
+  "median_ms": 33.1,
+  "service_cost_usd": 0.0
+}
